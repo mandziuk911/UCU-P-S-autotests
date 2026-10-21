@@ -1,0 +1,1 @@
+"""UCU Moodle automation package."""

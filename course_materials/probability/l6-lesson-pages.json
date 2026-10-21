@@ -1,0 +1,1688 @@
+[
+  {
+    "requested_pageid": 2660,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2660",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Introduction | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nIntroduction\nHow can you describe a random variables that can take on an infinite number of values? Today you will learn about continuous random variables, some very useful continuous distributions & will be able to describe a lot more with them! This topic is very important and will be used a lot.\nYou will also learn how to find joint distribution and compare CDF using change of variables!\nGood luck\nStart",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Start",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2660",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2685",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2661,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2661",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Continuous random variables (video) | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nContinuous random variables (video)\nRead text\nNext item",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Read text",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2661",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2685",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next item",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2661",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2684",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2662,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2662",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Continuous distributions (text) | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nContinuous distributions (text)\nDefinition. Uniform distribution\nA continuous random variable \\(X\\) has a uniform distribution \\(\\mathscr{U}(a,b)\\) in an interval \\( (a,b)\\) (written \\( X\\sim\\mathscr{U}(a,b) \\) ) if its density is \\[ f_X(t) = \\frac1{b-a}\\chi_{(a,b)}(t) = \\begin{cases} \\frac1{b-a}, & \\quad t \\in (a,b) \\\\ 0 & \\quad \\text{otherwise}. \\end{cases} \\]\nBecause \\(f_X(t)>0 \\) only when \\(x\\in (a,b)\\), it follows that \\(X\\) must assume values in  the interval \\( (a,b)\\). Also, since \\(f_X(t) \\) is constant for \\(x\\in (a,b)\\), the probability that \\(X\\) is in any particular subinterval \\((c,d)\\subset (a,b)\\) equals to the length of that interval devided by lenght of \\( (a,b)\\): \\[\\mathsf P(X \\in (c,d))=\\mathsf P(c < X < d) = \\frac{d-c}{b-a}\\]\nThe expectation \\(\\mathsf E (X)\\) is \\[ \\mathsf E(X) = \\frac{1}{b-a}\\int_a^b t\\,dt = \\frac{1}{2(b-a)} t^2\\Bigl|_{t=a}^b = \\frac{b^2-a^2}{2(b-a)} = \\frac{a+b}{2} \\] and is the middle point of the interval \\((a,b)\\)\nThe second moment is \\[ \\mathsf E (X^2) = \\frac{1}{b-a}\\int_a^b t^2\\,dt = \\frac{1}{3(b-a)} t^3\\Bigl|_{t=a}^b \\] \\[= \\frac{b^3-a^3}{3(b-a)} = \\frac{a^2+ab+b^2}{3}; \\]\nthus the variance is \\[ \\mathsf{Var} (X) = \\mathsf E(X^2)-\\mathsf E^2(X)= \\frac{a^2+ab+b^2}{3} - \\frac{(a+b)^2}4\\] \\[= \\frac{a^2+ab+b^2}{3} - \\frac{a^2+2ab+b^2}{4} = \\frac{(b-a)^2}{12}\\]\nDefinition. Standard normal, or Gaussian distribution\nA standard normal, or Gaussian , distribution \\(\\mathscr{N}(0,1)\\) is given by the density function \\[ \\phi(t):=\\frac{1}{\\sqrt{2\\pi}} \\mathrm e^{-t^2/2}. \\]\nFirst of all let's check that \\[\\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{\\infty} \\mathrm e^{-t^2/2}\\,dt =1.\\] Let \\[ I =\\int_{-\\infty}^{\\infty} \\mathrm e^{-t^2/2}\\,dt \\] then \\[ I^2 =\\int_{-\\infty}^{\\infty} \\mathrm e^{-t^2/2}\\,dt \\cdot \\int_{-\\infty}^{\\infty} \\mathrm e^{-v^2/2}\\,dv =\\int_{-\\infty}^{\\infty} \\int_{-\\infty}^{\\infty} \\mathrm e^{-(t^2+v^2)/2}\\,dt dv = \\] Make substitution \\(t=r\\cos\\theta, \\, v=r\\sin\\theta, \\, dtdv=rdrd\\theta\\) \\[=\\int_{0}^{\\infty} \\int_{0}^{2\\pi} \\mathrm e^{-r^2/2}\\,rdr d\\theta =2\\pi \\int_{0}^{\\infty}  \\mathrm e^{-r^2/2}\\,rdr =-2\\pi \\mathrm e^{-r^2/2} \\Bigl|_{0}^{\\infty} =2\\pi\\]\nThus \\(I^2=2\\pi\\) and \\[\\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{\\infty} \\mathrm e^{-t^2/2}\\,dt =\\frac{1}{\\sqrt{2\\pi}}\\cdot I =1.\\]\nThe expectation \\(\\mathsf E (X)\\) is \\[ \\mathsf E(X) = \\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{\\infty} t \\mathrm e^{-t^2/2}\\,dt = \\frac{1}{\\sqrt{2\\pi}} \\mathrm e^{-t^2/2} \\Bigl|_{-\\infty}^{\\infty} = 0\\]\nThe variance is \\[ \\mathsf{Var}(X)= \\mathsf E(X^2) = \\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{\\infty} t^2 \\mathrm e^{-t^2/2}\\,dt = \\] Integration by parts ( with \\(u=t\\) and \\(dv= t\\mathrm e^{-t^2/2}dt\\) ) now gives \\[=\\frac{1}{\\sqrt{2\\pi}}(-te^{-t^2/2}\\Bigl|_{-\\infty}^{\\infty} + \\int_{-\\infty}^{\\infty} \\mathrm e^{-t^2/2}\\,dt )= \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} \\mathrm e^{-t^2/2}\\,dt =1\\]\nDefinition. Normal, or Gaussian distribution\nIf \\(Z \\sim \\mathscr{N}(0,1)\\) has standard normal distribution, then the random variable \\(\\mu + \\sigma Z \\) is said to have a normal (or Gaussian) distribution with parameters \\(\\mu\\) and \\(\\sigma^2\\) (written \\(\\mathscr{N}(\\mu,\\sigma^2)\\) ).\nLet \\(Y := \\mu + \\sigma Z \\sim \\mathscr{N}(\\mu ,\\sigma^2)\\), then \\(\\mathsf E (Y) = \\mu \\mathsf E (1) + \\sigma \\mathsf E (Z) =\\mu\\) and \\(\\mathsf{Var} (Y) = \\mu \\mathsf{Var}(1)+\\sigma^2\\mathsf{Var}(Z)=\\sigma^2\\).\nThe density of \\(Y\\) can be found as follows: \\[ F_Y(t) = \\mathsf P (Y \\le t) = \\mathsf P (Z \\le (t-\\mu)/\\sigma)= F_Z\\bigl(\\frac{t-\\mu}{\\sigma}\\bigr), \\] whence \\[ f_Y(t) = F_Y'(t) = \\frac{1}{\\sigma} f_Z\\bigl(\\frac{t-\\mu}{\\sigma}\\bigr), \\] i.e., \\[ f_Y(t) = \\frac{1}{\\sqrt{2\\pi} \\cdot \\sigma} \\exp\\Bigl\\{ -\\frac{(t-\\mu)^2}{2\\sigma^2}\\Bigr\\}. \\]\nDefinition. Exponential distribution\nA nonnegative random variable \\(X\\) has exponential distribution with parameter \\(\\lambda>0\\) , written \\(X \\sim \\mathcal{E}(\\lambda)\\) , if the density of its distribution is \\[f_X(x) = \\begin{cases} \\lambda\\mathrm e^{-\\lambda x}, & x \\ge 0\\\\ 0, & x<0 \\end{cases} \\]\nFor \\(X\\sim \\mathcal{E}(\\lambda)\\), we make change of variables \\(\\lambda x = y\\) and integrate by parts to get \\[ \\mathsf E (X)= \\int_0^\\infty x \\lambda \\mathrm e^{-\\lambda x}\\,dx = \\frac{1}{\\lambda} \\int_0^\\infty y \\mathrm e^{-y}\\,dy = -\\frac{1}{\\lambda} \\int_0^\\infty y (\\mathrm e^{-y})' \\,dy \\] \\[= y \\mathrm e^{-y}\\Bigl|_{y=0}^\\infty +\\frac{1}{\\lambda} \\int_0^\\infty \\mathrm e^{-y} \\,dy = \\frac{1}{\\lambda}.\\]\nRecalling the definition of the Gamma function, \\[ \\Gamma(s) = \\int_0^\\infty x^{s-1} \\mathrm e^{-x}\\,dx, \\] and the relation \\(\\Gamma(k) = (k-1)!\\) for natural \\(k\\), we also find that \\[ \\mathsf E (X^k) = \\int_0^\\infty x^k \\lambda \\mathrm e^{-\\lambda x}\\,dx = \\frac{1}{\\lambda^k} \\int_0^\\infty y^k \\mathrm e^{-y}\\,dy =\\] \\[= \\frac{\\Gamma(k+1)}{\\lambda^k} = \\frac{k!}{\\lambda^k};\\] in particular, \\[ \\mathsf{Var} X = \\mathsf E (X^2) - (\\mathsf E\\,X)^2 = \\frac{2}{\\lambda^2} - \\frac{1}{\\lambda^2} = \\frac{1}{\\lambda^2}. \\]\nPrevious section\nVideo\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Previous section",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2662",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2685",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Video",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2662",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2663",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2662",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2671",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2663,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2663",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Continuous distributions (video) | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nContinuous distributions (video)\nPrevious section\nText\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Previous section",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2663",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2685",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Text",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2663",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2662",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2663",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2671",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2664,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2664",
+    "title": "Помилка | LMS Moodle at UCU",
+    "text": "Неможливо знайти сторінки лекції\nДокладніше про цю помилку.\nПродовжити",
+    "forms": []
+  },
+  {
+    "requested_pageid": 2665,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2665",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Joint distribution and independence (video) | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nJoint distribution and independence (video)\nPrevious\nText\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Previous",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2665",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2662",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Text",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2665",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2683",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2665",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2674",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2666,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2666",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Distribution of transformed variables (text) | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nDistribution of transformed variables (text)\nTheorem\nAssume \\(X\\) is continuous and \\(g\\) is an increasing function, then for random variable \\(Y:=g(X)\\) its c.d.f is \\[ F_Y(y) =F_X(g^{-1}(y)) \\] and the p.d.f. of \\(Y\\) is \\[f_Y(y) = F'_Y(y) = (g^{-1})'(y) f_X(g^{-1}(y)) \\]\nProof. \\[ F_Y(y) = \\mathsf P(Y\\le y) = \\mathsf P(g(X) \\le y) = \\mathsf P(X \\le g^{-1}(y)) = F_X(g^{-1}(y)) \\] and the p.d.f. of \\(Y\\) is \\[ f_Y(y) = F'_Y(y) = (g^{-1})'(y) f_X(g^{-1}(y)) \\]\nTheorem\nAssume that\n\\( \\mathbf{X}=(X_1,\\dots,X_n)\\) is a continuous random vector;\n\\( S\\subset\\mathbb{R}^n\\) is open and \\(\\mathsf P(\\mathbf{X} \\in S)=1\\);\n\\( g: S \\to \\mathbb R^n\\) is one-to-one, continuously differentiable and non-degenerate on \\(S\\).\nThen the random vector \\(\\mathbf{Y} := g(\\mathbf{X})\\) is continuously distributed with \\[ f_\\mathbf Y(\\mathbf y) = f_\\mathbf X \\bigl(\\mathbf g^{-1}(\\mathbf y)\\bigr) \\cdot |J_{\\mathbf g^{-1}}(\\mathbf y)| = f_\\mathbf{X}\\bigl(\\mathbf g^{-1}(\\mathbf y)\\bigr) / |J_{\\mathbf g}\\bigl(\\mathbf g^{-1}(\\mathbf y)\\bigr)|. \\] (\\( J_{\\mathbf{h}}\\) is the Jacobian of mapping \\(\\mathbf{h}\\), i.e., det.  of the matrix \\(\\left({\\partial h_j}/{\\partial y_k}\\right)_{j,k=1}^n)\\).\nProof. Proof is based on the change of variables formula \\(\\mathbf x = g^{-1}(\\mathbf y):\\) \\begin{align*} F_\\mathbf Y(\\mathbf t) = \\mathsf P\\{\\mathbf g(\\mathbf X) \\le \\mathbf t\\} = \\int_{\\mathbf g(\\mathbf x) \\le \\mathbf t} f_\\mathbf X(\\mathbf x)\\, d\\mathbf x \\\\ = \\int_{\\mathbf y\\le \\mathbf t} f_\\mathbf X \\bigl( \\mathbf g^{-1}(\\mathbf y)\\bigr) |J_{\\mathbf g^{-1}}(\\mathbf y)|\\,d\\mathbf y = \\int_{\\mathbf y\\le\\mathbf t} f_\\mathbf Y(\\mathbf y)\\,d\\mathbf y \\end{align*}\nExample. Let \\(X_1\\), \\(X_2\\) be jointly continuous random variables with joint p.d.f \\(f_{X_1,X_2}\\). Let \\(Y_1=X_1+X_2\\) and \\(Y_2= X_1-X_2 \\). We are interested in finding joint p.d.f of r.v. \\(Y_1\\) and \\(Y_2\\)\nLet \\(y_1 = g_1(x_1, x_2)=x_1+x_2\\) and \\(y_2 = g_2(x_1, x_2)=x_1-x_2. \\) Then the Jacobian\\[ J(x_1,x_2) = \\begin{vmatrix} \\frac{\\partial g_1}{\\partial x_1} & \\frac{\\partial g_1}{\\partial x_2} \\\\ \\frac{\\partial g_2}{\\partial x_1} & \\frac{\\partial g_2}{\\partial x_2} \\end{vmatrix} = \\begin{vmatrix} 1 & 1 \\\\1 & -1 \\end{vmatrix} = -2\\] Also, since the solution to the equations \\(y_1 = x_1+x_2\\) and \\(y_2 =x_1-x_2 \\) is \\(x_1 = (y_1+y_2)/2\\) and \\(x_2 =(y_1-y_2)/2 \\), we get \\[ f_{Y_1,Y_2}(y_1,y_2)= f_{X_1,X_2}(x_1,x_2)|J(x_1,x_2)|^{-1}=f_{X_1,X_2}((y_1+y_2)/2,(y_1-y_2)/2)\\cdot | \\frac{1}{-2} | \\]\nTheorem. Distribution of \\(X_1 + X_2\\) and convolution.\nLet \\(X_1\\), \\(X_2\\) have continuous joint distribution with joint p.d.f. \\(f_{X_1,X_2}\\) then \\[ f_{X_1+X_2}(y_1) = \\int_{\\mathbb R} f_{X_1,X_2}(y_1 - t,t)\\,dt = \\int_{\\mathbb R} f_{X_1,X_2}(t,y_1 - t)\\,dt \\] If \\(X_1\\) and \\(X_2\\) are independent, then we get the convolution of \\(f_{X_1}\\) and \\(f_{X_2}\\): \\[ f_{X_1+X_2}(y) = \\int_{\\mathbb R} f_{X_1}(y - t)f_{X_2}(t)\\,dt =\\int_{\\mathbb R} f_{X_1}(t)f_{X_2}(y - t)\\,dt \\]\nProof. Consider \\(Y_1 = X_1 + X_2\\) and \\(Y_2 = X_2\\); then \\(g^{-1}(y_1,y_2) = (y_1-y_2,y_2)\\) and \\[ f_{\\mathbf Y}(\\mathbf y) = f_{\\mathbf X}(y_1-y_2,y_2) \\] and the marginal p.d.f. of \\(Y_1\\) (i.e., p.d.f. of \\(X_1 + X_2\\)) is \\[ f_{X_1+X_2}(y_1) = f_{Y_1}(y_1) = \\int_{\\mathbb R} f_{\\mathbf X}(y_1 - t,t)\\,dt = \\int_{\\mathbb R} f_{\\mathbf X}(t,y_1 - t)\\,dt \\] If \\(X_1\\) and \\(X_2\\) are independent, then we get the convolution of \\(f_{X_1}\\) and \\(f_{X_2}\\): \\[ f_{X_1+X_2}(y) = \\int_{\\mathbb R} f_{X_1}(y - t)f_{X_2}(t)\\,dt =\\int_{\\mathbb R} f_{X_1}(t)f_{X_2}(y - t)\\,dt \\]\nDefinition (Conditional distribution of \\(X\\) given that \\(Y=y\\))\nLet \\(X\\), \\(Y\\) have continuous joint distribution with joint p.d.f. \\(f_{X,Y}\\). We say that the conditional distribution of \\(X\\) given that \\(Y=y\\) is continuous r.v with the p.d.f. \\[ f_{X\\mid Y} (x \\mid y) := \\frac{f_{X,Y}(x,y)}{f_Y(y)} \\]\nPrevious\nVideo\nNext item",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Previous",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2666",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2683",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Video",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2666",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2667",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next item",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2666",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2677",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2667,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2667",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Distribution of transformed variables (video) | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nDistribution of transformed variables (video)\nPrevious\nText\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Previous",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2667",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2683",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Text",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2667",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2666",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2667",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2677",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2668,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2668",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Problem 1.5 | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProblem 1.5\nLet \\(X\\) be a continuous random variable with pdf \\[ f_X(t) = \\begin{cases} 1, & \\quad 0\\le t \\le 1; \\\\  0  &\\quad  \\text{otherwise} \\end{cases} \\]\nFind \\(\\mathsf E(e^X)\\) ?\n\\(e+1\\)\n\\(e -1\\)\nHint!",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Problem 1.5\n\n\nLet \\(X\\) be a continuous random variable with pdf \\[ f_X(t) = \\begin{cases} 1, & \\quad 0\\le t \\le 1; \\\\  0  &\\quad  \\text{otherwise} \\end{cases} \\]\n\nFind \\(\\mathsf E(e^X)\\) ?\n\n\n\n\n\\(e+1\\)\n\n\\(e -1\\)\n\nHint!",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2668",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_multichoice_singleanswer",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5784",
+            "label": "\\(e+1\\)"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5783",
+            "label": "\\(e -1\\)"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5785",
+            "label": "Hint!"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2669,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2669",
+    "title": "Помилка | LMS Moodle at UCU",
+    "text": "Неможливо знайти сторінки лекції\nДокладніше про цю помилку.\nПродовжити",
+    "forms": []
+  },
+  {
+    "requested_pageid": 2670,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2670",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Problem 1.2 | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProblem 1.2\nLet \\(X\\) be continuous random variable with p.d.f \\[ f_X(t) = \\begin{cases} C(4t-2t^2), & \\quad 0<t < 2; \\\\  0,  & \\quad \\text{otherwise} \\end{cases} \\]\nWhat is the value of \\(C\\)?\n3/8\n1/8\n1/2",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Problem 1.2 \n\n\nLet \\(X\\) be continuous random variable with p.d.f \\[ f_X(t) = \\begin{cases} C(4t-2t^2), & \\quad 0<t < 2; \\\\  0,  & \\quad \\text{otherwise} \\end{cases} \\]\n\nWhat is the value of \\(C\\)?\n\n\n\n\n3/8\n\n1/8\n\n1/2",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2670",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_multichoice_singleanswer",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5807",
+            "label": "3/8"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5777",
+            "label": "1/8"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5778",
+            "label": "1/2"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2671,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2671",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Problem 2.1 | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProblem 2.1\nBuses arrive at a specified stop at 15-minute intervals starting at 7 A.M. That is, they arrive at 7, 7:15, 7:30, 7:45, and so on. If a passenger arrives at the stop at a time that is uniformly distributed between 7 and 7:30\nMatch the corresponding values.\nProbability that he/she waits less than 5 minutes for a bus\nВибрати...\n1/3\n2/3\nProbability that he/she waits more than 10 minutes for a bus\nВибрати...\n1/3\n2/3\nProbability that he/she waits more than 5 minutes for a bus\nВибрати...\n1/3\n2/3",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Problem 2.1\n\n\nBuses arrive at a specified stop at 15-minute intervals starting at 7 A.M. That is, they arrive at 7, 7:15, 7:30, 7:45, and so on. If a passenger arrives at the stop at a time that is uniformly distributed between 7 and 7:30\n\nMatch the corresponding values.\n\n\nProbability that he/she waits less than 5 minutes for a bus\n\nВибрати...\n1/3\n2/3\n\nProbability that he/she waits more than 10 minutes for a bus\n\n\nВибрати...\n1/3\n2/3\n\nProbability that he/she waits more than 5 minutes for a bus\n\n\nВибрати...\n1/3\n2/3",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2671",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_matching",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "SELECT",
+            "type": "select-one",
+            "name": "response[5788]",
+            "value": "",
+            "label": "Probability that he/she waits less than 5 minutes for a bus"
+          },
+          {
+            "tag": "SELECT",
+            "type": "select-one",
+            "name": "response[5789]",
+            "value": "",
+            "label": "Probability that he/she waits more than 10 minutes for a bus\n"
+          },
+          {
+            "tag": "SELECT",
+            "type": "select-one",
+            "name": "response[5790]",
+            "value": "",
+            "label": "Probability that he/she waits more than 5 minutes for a bus\n"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2672,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2672",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Problem 2.2 | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProblem 2.2\nSuppose that the number of miles that a car can run before its battery wears out is exponentially distributed with an average value of 10 miles. If a person desires to take a 5-mile trip, what is the probability that he or she will be able to complete the trip without having to replace the car battery?\n\\(e^{-1/2}\\)\n\\(e^{-1/10}\\)\n\\(1-e^{-1/2}\\)",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Problem 2.2\n\n\nSuppose that the number of miles that a car can run before its battery wears out is exponentially distributed with an average value of 10 miles. If a person desires to take a 5-mile trip, what is the probability that he or she will be able to complete the trip without having to replace the car battery?\n\n\n\n\n\\(e^{-1/2}\\)\n\n\\(e^{-1/10}\\)\n\n\n\\(1-e^{-1/2}\\)",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2672",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_multichoice_singleanswer",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5809",
+            "label": "\\(e^{-1/2}\\)"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5811",
+            "label": "\\(e^{-1/10}\\)\n"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5810",
+            "label": "\\(1-e^{-1/2}\\)\n"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2673,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2673",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Problem 2.3 | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProblem 2.3\nMatch the distributions and their probability density functions\n\\(f_X(t) =1\\)  for \\(t \\in (0,1) \\) and 0 otherwise\nВибрати...\nuniform distribution\nexponential\nnormal distribution\n\\[f(t)=Ce^{-t^2}. \\]\nВибрати...\nuniform distribution\nexponential\nnormal distribution\n\\( f_X(t)=\\lambda\\mathrm e^{-\\lambda x}\\) for \\( x \\ge 0\\)\nand 0 otherwise\nВибрати...\nuniform distribution\nexponential\nnormal distribution",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Problem 2.3\n\n\nMatch the distributions and their probability density functions\n\n\\(f_X(t) =1\\)  for \\(t \\in (0,1) \\) and 0 otherwise\n\n\n\n\nВибрати...\nuniform distribution\nexponential\nnormal distribution\n\n \\[f(t)=Ce^{-t^2}. \\]\n\n\n\n\n\nВибрати...\nuniform distribution\nexponential\nnormal distribution\n\n\\( f_X(t)=\\lambda\\mathrm e^{-\\lambda x}\\) for \\( x \\ge 0\\)\n\n\nand 0 otherwise\n\n\nВибрати...\nuniform distribution\nexponential\nnormal distribution",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2673",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_matching",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "SELECT",
+            "type": "select-one",
+            "name": "response[5793]",
+            "value": "",
+            "label": "\\(f_X(t) =1\\)  for \\(t \\in (0,1) \\) and 0 otherwise\n\n\n"
+          },
+          {
+            "tag": "SELECT",
+            "type": "select-one",
+            "name": "response[5794]",
+            "value": "",
+            "label": " \\[f(t)=Ce^{-t^2}. \\]\n\n\n\n"
+          },
+          {
+            "tag": "SELECT",
+            "type": "select-one",
+            "name": "response[5795]",
+            "value": "",
+            "label": "\\( f_X(t)=\\lambda\\mathrm e^{-\\lambda x}\\) for \\( x \\ge 0\\)\n\n\nand 0 otherwise\n"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2674,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2674",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Problem 3.1 | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProblem 3.1.\nIf \\(X\\) is a random variable with normal distribution \\(\\mathcal{N}(1,2)\\)\nthen a variance of a random variable \\(Y:=-X+2\\) is equal to\n2\n-2\n0",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Problem 3.1.\n\n\nIf \\(X\\) is a random variable with normal distribution \\(\\mathcal{N}(1,2)\\) \n\nthen a variance of a random variable \\(Y:=-X+2\\) is equal to \n\n\n\n\n\n2\n\n-2\n\n0",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2674",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_multichoice_singleanswer",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5799",
+            "label": "2"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5801",
+            "label": "-2"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5800",
+            "label": "0"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2675,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2675",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Problem 3.2. | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProblem 3.2.\nAssume that \\(X\\) and \\(Y\\) are independent identically distributed r.v.'s with exponential distribution \\(\\mathscr{E}(1)\\).\nFind the variance of a r.v. \\(X-Y\\).\nВаша відповідь",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Problem 3.2.\n\n\nAssume that \\(X\\) and \\(Y\\) are independent identically distributed r.v.'s with exponential distribution \\(\\mathscr{E}(1)\\).\n\nFind the variance of a r.v. \\(X-Y\\).\n\n\n\n\nВаша відповідь",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2675",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_shortanswer",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "answer",
+            "value": "",
+            "label": "Ваша відповідь"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2676,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2676",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Problem 4.2 | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProblem 4.2\nIf \\(X\\) and \\(Y\\) are independent identically distributed r.v.'s  with exponential distribution \\(\\mathscr{E}(1)\\). Find the distribution of r.v. \\(6X+Y\\).\nnone of the suggested\nit has exponential distribution \\(\\mathscr{E}(1/6)\\)\nit has exponential distribution \\(\\mathscr{E}(1/7)\\)",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Problem 4.2\n\n\nIf \\(X\\) and \\(Y\\) are independent identically distributed r.v.'s  with exponential distribution \\(\\mathscr{E}(1)\\). Find the distribution of r.v. \\(6X+Y\\).\n\n\n\n\nnone of the suggested\n\n\nit has exponential distribution \\(\\mathscr{E}(1/6)\\)\n\n\n\n\n\nit has exponential distribution \\(\\mathscr{E}(1/7)\\)",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2676",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_multichoice_singleanswer",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5821",
+            "label": "none of the suggested\n"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5820",
+            "label": "it has exponential distribution \\(\\mathscr{E}(1/6)\\)\n\n\n\n"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5819",
+            "label": "it has exponential distribution \\(\\mathscr{E}(1/7)\\)"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2677,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2677",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Problem 4.1 | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProblem 4.1\nIf \\(X\\) is a random variable with exponential distribution \\(\\mathscr{E}(2)\\).\nFind \\(P(X> 4 \\mid X>2)\\)\n\\(1-e^{-8}\\)\n\\(e^{-4}\\)\n\\(1-e^{-4}\\)",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Problem 4.1\n\n\nIf \\(X\\) is a random variable with exponential distribution \\(\\mathscr{E}(2)\\).\n\nFind \\(P(X> 4 \\mid X>2)\\)\n\n\\(1-e^{-8}\\)\n\n\n\\(e^{-4}\\)\n\n\\(1-e^{-4}\\)",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2677",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_multichoice_singleanswer",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5817",
+            "label": "\\(1-e^{-8}\\)\n"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5816",
+            "label": "\\(e^{-4}\\)"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5818",
+            "label": "\\(1-e^{-4}\\)\n"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2678,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2678",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Problem 4.2 solution | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProblem 4.2 solution\nProblem 4.2 solution\nIf \\(X\\) and \\(Y\\) are independent identically distributed r.v.'s with exponential distribution \\(\\mathscr{E}(1)\\), then to find the distribution of the r.v. \\(6X+Y\\) we have\nfind the joint pdf of \\( 6X+Y\\) and \\(X\\)\nfind the marginal pdf of  \\( 6X+Y\\)\nStep 1. Find the joint pdf of \\( 6X+Y\\) and \\(X\\)\nSince \\(X\\), \\(Y\\) are independent identically distributed r.v.'s with exponential distribution \\(\\mathscr{E}(1)\\), their joint p.d.f is \\[f_{X,Y}(x,y)=f_{X}(x)\\cdot f_{Y}(y)= \\begin{cases} e^{-(x+y)}, & for \\, x\\ge 0, y\\ge 0,\\\\ 0 & elsewhere \\\\ \\end{cases}\\]\nLet \\(Z_1=6X+Y\\) and \\(Z_2= X \\). We are interested in finding joint p.d.f of r.v. \\(Z_1\\) and \\(Z_2\\).\nSince \\(z_1 = 6x+y\\) and \\(z_2 = x \\) Then the Jacobian\\[ J(x_1,x_2) = \\begin{vmatrix} 6 & 1 \\\\1 & 0 \\end{vmatrix} = -1\\] Also, since the solution to the equations \\(z_1 = 6x+y\\) and \\(z_2 = x \\) is \\(x = z_2 \\) and \\(y =z_1-6z_2 \\), we get \\[ f_{6X+Y,X}(z_1,z_2)= f_{X,Y}(x,y)|J(x,y)|^{-1} = \\begin{cases} - e^{-(z_2+z_1-6z_2)}, & for \\, z_2\\ge 0, z_1-6z_2\\ge 0,\\\\ 0 & elsewhere \\end{cases}\\]\nStep 2. Find the marginal pdf of  \\( 6X+Y\\)\n\\[ f_{6X+Y}(z_1)=\\int_{-\\infty}^{ \\infty}f_{6X+Y,X}(z_1,z_2)dz_2=\\int_{0}^{z_1/6}-e^{-(z_1-5z_2)}dz_2= \\frac{1}{5}e^{-z_1}(e^{-\\frac{5}{6}z_1}-1)\\]\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2678",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2679",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2679,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2679",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Reminder | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nReminder\nLessons shouldn't be your only source of information! Don't forget about reading materials for more in-depth point of view!\nReading for Topic 6\nBack\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Back",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2679",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2669",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2679",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "-9",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2680,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2680",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Problem 1.3 | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProblem 1.3\nLet \\(X\\) be a continuous random variable with pdf \\[ f_X(t) = \\begin{cases} 3Ct^2, & \\quad 0<t < C; \\\\  0  & otherwise. \\end{cases} \\]\nWhat is the value of C ?\n-1 or 1\n1",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Problem 1.3 \n\n\nLet \\(X\\) be a continuous random variable with pdf \\[ f_X(t) = \\begin{cases} 3Ct^2, & \\quad 0<t < C; \\\\  0  & otherwise. \\end{cases} \\]\n\nWhat is the value of C ?\n\n\n\n\n-1 or 1\n\n1",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2680",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_multichoice_singleanswer",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5780",
+            "label": "-1 or 1"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5779",
+            "label": "1"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2681,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2681",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Problem 3.3 | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProblem 3.3.\nAssume that \\(X\\) and \\(Y\\) are identically distributed r.v.'s  with exponential distribution \\(\\mathscr{E}(1)\\). Find the variance of a r.v. \\(X-2Y\\).\nnone of the suggested\n-3\n5",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Problem 3.3.\n\nAssume that \\(X\\) and \\(Y\\) are identically distributed r.v.'s  with exponential distribution \\(\\mathscr{E}(1)\\). Find the variance of a r.v. \\(X-2Y\\).\n\n\n\n\nnone of the suggested\n\n\n-3\n\n5",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2681",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_multichoice_singleanswer",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5802",
+            "label": "none of the suggested\n"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5812",
+            "label": "-3"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5803",
+            "label": "5"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2682,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2682",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Problem 1.4 | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProblem 1.4\nLet \\(X\\) be a continuous random variable with pdf \\[ f_X(t) = \\begin{cases} C(4t-2t^2), & \\quad 0<t < 2; \\\\  0  & \\quad \\text{otherwise} \\end{cases} \\]\nFind \\(P(X>1)\\)\n1/2\n3/8\n1/8",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Problem 1.4\n\n\nLet \\(X\\) be a continuous random variable with pdf \\[ f_X(t) = \\begin{cases} C(4t-2t^2), & \\quad 0<t < 2; \\\\  0  & \\quad \\text{otherwise} \\end{cases} \\]\n\nFind \\(P(X>1)\\)\n\n\n\n\n\n\n\n1/2\n\n3/8\n\n1/8",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2682",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_multichoice_singleanswer",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5782",
+            "label": "1/2"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5808",
+            "label": "3/8"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5781",
+            "label": "1/8"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2683,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2683",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Joint distribution and independence (text) | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nJoint distribution and independence (text)\nDefinition (Joint c.d.f.)\nAssume \\(X\\) and \\(Y\\) are r.v. defined on a probability space \\((\\Omega,\\mathscr F,\\mathsf P)\\), then the function \\[ F_{X,Y}(x,y) := \\mathsf P(X\\le x,Y\\le y) \\] is called the joint cumulative distribution function.\nDefinition (Marginal c.d.f.)\nThe marginal c.d.f. of \\(X\\) and \\(Y\\) with joint cdf \\(F_{X,Y}\\) are \\[ F_X(x) = \\lim_{y \\to \\infty} F_{X,Y} (x,y) \\] \\[ F_Y(y) = \\lim_{x \\to \\infty} F_{X,Y} (x,y)\\]\nSuppose in a unit interval \\( (0,1)\\) we choose at random two points. Let \\(X\\) denote the distance from the origin to the first point and \\(Y\\) denote the distance to the second point. The joint c.d.f of \\(X\\) and \\(Y\\) is \\[ F_{X,Y} = \\begin{cases} 1 \\quad & x>1, y>1\\\\ x, \\quad & x \\in (0,1), y>1\\\\ y, \\quad & x>1, y \\in (0,1)\\\\ xy, \\quad &x,y \\in (0,1)\\\\ 0, \\quad & \\text{otherwise} \\end{cases} \\]\nDefinition (Joint c.d.f.)\nWe say that r.v. \\(X\\) and \\(Y\\) have continuous joint distribution if \\[ F_{X,Y}(x,y) = \\int_{-\\infty}^x \\int_{-\\infty}^y f_{X,Y} (u,v)\\,du\\,dv \\] for a nonnegative function \\(f_{X,Y}\\), called joint probability density function . In that case, \\[ f_X(x) = \\int_\\mathbb R f_{X,Y} (x,y)\\,dy \\] \\[ f_Y(y) = \\int_\\mathbb R f_{X,Y} (x,y)\\,dx \\] give marginal densities of \\(X\\) and \\(Y\\)\nThe uniform distribution on the unit square has a joint p.d.f. \\[ f_{X,Y}(x,y) = \\begin{cases} 1& x\\in (0,1), y\\in (0,1) \\\\ 0 & \\quad \\text{otherwise} \\end{cases}\\]\nDefinition (Independence)\nR.v. \\(X\\) and \\(Y\\) are called independent if for all \\(x\\) and \\(y\\) the events \\(\\{X\\le x\\}\\) and \\(\\{Y \\le y\\}\\) are independent. Thus for independent \\(X\\) and \\(Y\\) \\[ \\mathsf P ( X\\le x, Y \\le y) = \\mathsf P (X\\le x) \\cdot \\mathsf P (Y\\le y); \\] or, in terms of cumulative distribution functions (c.d.f.) \\[ F_{X,Y}(x,y) = F_X(x) F_Y(y) \\] or, in terms of probability density functions (p.d.f.), \\[ f_{X,Y}(x,y) = f_X(x) \\cdot f_Y(y). \\]\nTheorem. Linearity of expectation\nAssume \\(X\\) and \\(Y\\) are random variables with continuous joint p.d.f. \\(f_{X,Y}\\); then for all constancts \\(a\\) and \\(b\\), \\[\\boxed{\\mathsf{E}(aX+bY) = a\\mathsf{E}(X) + b\\mathsf{E}(Y)}\\]\nProof. \\begin{align*}\\mathsf{E}(aX+bY) &= \\int_{-\\infty}^\\infty \\int_{-\\infty}^\\infty (ax + by) f_{X,Y}(x,y)dxdy= \\\\ &= \\int_{-\\infty}^\\infty \\int_{-\\infty}^\\infty ax f_{X,Y}(x,y)dxdy + \\int_{-\\infty}^\\infty \\int_{-\\infty}^\\infty by f_{X,Y}(x,y)dxdy \\\\ &= a \\int_{-\\infty}^\\infty ( x \\int_{-\\infty}^\\infty f_{X,Y}(x,y)dy )dx + b \\int_{-\\infty}^\\infty ( y \\int_{-\\infty}^\\infty f_{X,Y}(x,y)dx )dy\\\\ &= a \\int_{-\\infty}^\\infty ( x f_{X}(x) )dx + b \\int_{-\\infty}^\\infty ( y f_Y( y ))dy = a\\mathsf{E}(X) + b\\mathsf{E}(Y) \\end{align*}\nTheorem\nAssume \\(X\\) and \\(Y\\) are random variables with continuous joint p.d.f. \\(f_{X,Y}\\); then \\[ \\mathsf{Var}(X + Y) = \\mathsf{Var}(X) + 2 \\mathsf{Cov}(X,Y) + \\mathsf{Var}(Y)\\] If \\(X\\) and \\(Y\\) are independent then \\[ \\mathsf{Var}(X + Y) = \\mathsf{Var}(X) + \\mathsf{Var}(Y)\\]\nProof. \\[\\mathsf{E}(X+Y)= \\mathsf{E}(X) + \\mathsf{E}(Y),\\] so that \\[ (X+Y) - \\mathsf{E}(X+Y) = (X-\\mathsf{E}(X)) + (Y-\\mathsf{E}(Y)), \\] and \\begin{align*} \\mathsf{Var}(X+Y) & = \\mathsf{E}[{(X-\\mathsf{E}(X))} + {(Y-\\mathsf{E}(Y))}]^2 \\\\ &= {\\mathsf{Var}(X)} + 2 \\mathsf{Cov}({X},{Y}) + {\\mathsf{Var}(Y)} \\end{align*}\nTheorem\nAssume \\(X\\) and \\(Y\\) are independent random variables with continuous joint p.d.f. \\(f_{X,Y}\\); then for any continuous functions \\(g\\) and \\(h\\) \\[ \\mathsf E \\bigl(g(X) h(Y)\\bigr) = \\mathsf E \\bigl(g(X)\\bigr)\\mathsf E \\bigl(h(Y)\\bigr) \\]\nProof. \\(X\\) and (Y) independent \\(\\implies f_{X,Y}(x,y) = f_{X}(x)f_{Y}( y )\\) and \\begin{align*} \\mathsf E (g(X)h(Y)) = \\int_\\mathbb R \\int_\\mathbb R g(x)h( y )\\, f_{X,Y}(x,y)\\,dx\\,dy \\\\ = \\int_\\mathbb R \\int_\\mathbb R g(x)h( y )\\, f_{X}(x)f_{Y}( y )\\,dx\\,dy \\\\ = \\int_\\mathbb R g(x) f_{X}(x)\\,dx\\, \\cdot \\int_\\mathbb R h( y ) f_{Y} ( y )\\,dy = \\mathsf E (g(X)) \\cdot\\mathsf E (h(Y)) \\end{align*}\nPrevious\nVideo\nNext item",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Previous",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2683",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2662",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Video",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2683",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2665",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next item",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2683",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2674",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2684,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2684",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Problem 1.1 | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProblem 1.1\nLet \\(X\\) be a random variable with c.d.f \\[ F_X(t) = \\begin{cases} 0, & \\quad t < 0; \\\\   (1+t)/2, & \\quad 0\\le t < 1; \\\\ 1, & \\quad t \\ge 1. \\end{cases} \\]\nIs \\(X\\) a continuous random variable?\nno, it isn't continuous.\nyes, it is continuous.",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Problem 1.1 \n\n\n\nLet \\(X\\) be a random variable with c.d.f \\[ F_X(t) = \\begin{cases} 0, & \\quad t < 0; \\\\   (1+t)/2, & \\quad 0\\le t < 1; \\\\ 1, & \\quad t \\ge 1. \\end{cases} \\]\n\nIs \\(X\\) a continuous random variable?\n\nno, it isn't continuous.\n\nyes, it is continuous.",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2684",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_multichoice_singleanswer",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5775",
+            "label": "no, it isn't continuous."
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5776",
+            "label": "yes, it is continuous.\n"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2685,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105028&pageid=2685",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L6: Continuous random variables: Continuous random variables | LMS Moodle at UCU",
+    "text": "Activity Lesson 6 introduces the notion of a continuous random variable and its distribution. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 6. Note that Quiz no. 6 cannot be reached in any other way but via Lesson 6.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nContinuous random variables\nLet's recall the definition of a random variable and its cumulative distribution function\nDefinition. Random variable\nA random variable (r.v.) \\(X\\) on a probability space \\( ( \\Omega, \\mathscr F, \\mathsf P)\\) is any measurable function \\(X:\\Omega \\to \\mathbb R\\).\nDefinition. Cumulative distribution function (cdf)\nFor a random variable \\(X\\), its cumulative distribution function is defined by \\[F_X(t):= \\mathsf P(X\\le t)\\]\nAs we remember, the cdf \\(F_X\\) is right-continuous: \\(F_X(t)=F_X(t+0):= \\lim_{\\varepsilon \\to 0}F_X(t+\\varepsilon)\\). However, \\(F_X(t-0):=\\lim_{\\varepsilon \\to 0}F_X(t-\\varepsilon)\\) need not be equal to \\(F_X\\), as we saw for discrete random variables. Let's consider an example where the cdf is continuous.\nSuppose our experiment consists of choosing at random a point \\(Q\\) in the interval \\([0,1]\\). Let \\(X\\) be a random variable that denotes the distance from the origin \\(0\\) to the point \\(Q\\). Then cdf of \\(X\\) is\n\\[F_X(t) = \\begin{cases} 0, &\\quad t < 0,\\\\ t, & \\quad 0 \\le t < 1,\\\\ 1, &\\quad t \\ge1.\\end{cases} \\]\nNote that if the cdf \\(F_X(t)\\) is continuous, then \\(P (X=a)=F_X(a)-F_X(a-0):= F_X(a) - \\lim_{\\varepsilon \\to 0}F_X(a-\\varepsilon)= 0\\) for any \\(a \\in \\mathbb R\\). Thus if the cdf \\(F_X\\) is continuous, then the random variable \\(X\\) isn't discrete.\nDefinition. Continuous random variable\nLet \\(X\\) be a random variable and  \\(F_X\\) be its cumulative distribution function. If the derivative \\[\\frac{dF_X}{dx}=F_X'(x)\\] exists at all (but possible finitely many) points, and the function \\(f\\) defined by \\[f(x) = \\begin{cases} F'_X(x), & \\quad \\text{if } F'_X(x)  \\text{ exists} \\\\ 0, & \\quad \\text{otherwise} \\end{cases}\\] satisfies \\[F_X(x)= \\int_{-\\infty}^xf(v)dv,\\] then \\(X\\) is said to be a continuous random variable.\nDefinition. Probability density function\nLet \\(X\\) be a continuous random variable with cdf \\(F_X\\); then the function \\(f\\) defined by  \\[f(x) = \\begin{cases} F'_X(x), & \\quad \\text{if } F'_X(x)  \\text{ exists} \\\\ 0, & \\quad \\text{otherwise} \\end{cases}\\]  is called the probability density function (pdf).\nLet us discuss some properties of the probability density functions:\nSince the cdf \\(F_X\\) is a non-decreasing function, its derivative \\(f\\) is non-negative: \\[f(x)\\ge 0, \\quad  \\text{for  any}\\ x.\\]\nAccording to the Newton-Leibniz formula, \\[\\mathsf P(a < X \\le b) =F_X(b)-F_X(a)= \\int_a^b f(t)\\,dt.\\]\nSince the probability of the whole sample space is one, the next equality holds: \\[\\mathsf P(\\Omega)=\\mathsf{P}(-\\infty < X < \\infty)=\\int_{\\mathbb R}f(t)\\,dt = 1\\]\nNote that the only requirements on \\(f\\) to be probability density function is \\[f \\ge 0 \\quad \\text{and} \\quad \\int_{\\mathbb R} f_X(x)\\,dx = 1\\]\nExample. Suppose that \\(X\\) is a continuous r.v. whose probability density function is given by \\(f(x)=C\\cdot x\\) for \\(0 <x < 2 \\) and \\(f(x)= 0\\) otherwise. What is the value of \\(C\\)?\nSince \\(\\int_{\\mathbb R}f(x)\\,dx = 1\\) we get \\[\\int_0^2 C\\cdot x \\,dx = 1\\]\nHence \\( C= 1/2\\).\nExample. Suppose that \\(X\\) is a continuous r.v. with cumulative distribution function \\(F_X\\) and probability density function \\(f_X\\). Find the probability density function of the random variable \\(Y=2X+1\\).\n\\[ F_Y(y) = \\mathsf P(Y\\le y) = \\mathsf P(2X+1 \\le y)= \\mathsf P(X \\le \\frac{y-1}{2})= F_X\\bigl((y-1)/2\\bigr)\\implies\\] \\[f_Y(y) = F'_Y(y) = \\frac{1}{2} f_X(\\frac{y-1}{2})\\]\nDefinition. Expectation\nLet \\(X\\) be a continuous r.v. with probability density function \\(f_X\\). If \\(\\int_{\\mathbb R} |x|\\, f_X(x)\\,dx < \\infty,\\) then \\[\\mathsf E(X) := \\int_{\\mathbb R} x\\, f_X(x)\\,dx\\] is called  the expected value of \\(X\\).\nThe expected value is also called the expectation, mean value, average, or first moment of \\(X\\)\nVideo\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Video",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2685",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2661",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105028",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2685",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2684",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  }
+]

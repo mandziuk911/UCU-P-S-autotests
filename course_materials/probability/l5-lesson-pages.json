@@ -1,0 +1,1404 @@
+[
+  {
+    "requested_pageid": 2639,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2639",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Introduction | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nIntroduction\nIf probability of getting Heads in one toss is 0.3, what is the number of Heads would you expect in 10 tosses?\nToday you will learn about an extremely some very useful notions about random variables: expectation, variance, covariance and correlation.\nThere are many way to describe a random variables other than pmf or cdf. These are crucial to describe a R.V. and gain more knowledge about it.\nStart",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Start",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2639",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2659",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2640,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2640",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Expectation (video) | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nExpectation (video)\nText\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Text",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2640",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2659",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2640",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2641",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2641,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2641",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Q_Expectation | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nSuppose you have to roll a fair 6-sided die, with 1, 2, 3, 4, 5 and 6 dots on its sides. Let a random variable \\(X\\) be the number of dots that face up after you roll the die once. What is the expected value of \\(X\\)? (Enter the result as a decimal number)\nВаша відповідь",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Suppose you have to roll a fair 6-sided die, with 1, 2, 3, 4, 5 and 6 dots on its sides. Let a random variable \\(X\\) be the number of dots that face up after you roll the die once. What is the expected value of \\(X\\)? (Enter the result as a decimal number)\n\nВаша відповідь",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2641",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_numerical",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "answer",
+            "value": "",
+            "label": "Ваша відповідь"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2642,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2642",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Properties of expectation (text) | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProperties of expectation (text)\nIn this section, we consider properties of expectation and some related issues.\nLet us start from the formula which allows us to define the expectation of a random variable that is a transformation of a random variable \\(X\\), such as \\(X^2\\) or \\(\\cos(X)\\). In other words, if \\(g\\) is a function on \\(\\mathbb{R}\\), what is the expectation of \\(Y:= g \\circ X = g(X)\\)? Observe that \\(Y\\) is a random variable on the same probability space \\((\\Omega, \\mathscr{F}, \\mathsf{P})\\) defined via \\[Y(\\omega) := g\\bigl(X(\\omega)\\bigr),  \\qquad \\omega \\in \\Omega.\\]\nFirstly we should find the distribution of the new random variable \\(Y\\).\nNote that if \\(X\\) assumes values \\(x_k\\), \\(k=1,2,\\dots\\), then the possible values of \\(Y\\) are \\(g(x_k)\\)\nIt may happen that some of the \\(g(x_k)\\) are repeated; so let us label all pairwise distinct values among them by \\(y_j\\)\nthen the p.m.f. of \\(Y\\) is \\[ p_Y(y_j) = \\mathsf{P}(Y=y_j) = \\sum_{k}\\mathsf{P}(g(X)=y_j \\mid X=x_k) \\mathsf{P}(X=x_k), \\] where we have used the total probability rule by conditioning on the values of \\(X\\). Observe that \\(\\mathsf{P}(g(X)=y_j \\mid X=x_k)\\) takes only two values, \\(1\\) if \\(g(x_k)=y_j\\) and \\(0\\) otherwise.\nTherefore, \\[ p_Y(y_j) = \\sum_{k:g(x_k) = y_j} \\mathsf{P}(X=x_k) = \\sum_{k:g(x_k) = y_j}p_X(x_k)\\]\nThis yields the following\nTheorem\nExpectation of \\(g(X)\\) is \\[ \\boxed{\\mathsf{E}({{g}}(X)) = \\sum\\nolimits_{k} {{g}}(x_k) p_X(x_k)} \\]\nProof. Indeed, \\begin{align*}\\mathsf{E}(Y) &= \\sum_j y_j\\, {p_Y(y_j)} = \\sum_j {y_j}{\\sum_{k:g(x_k) = y_j}p_X(x_k)} \\\\ &= \\sum_{{j}} \\sum_{{k:g(x_k) = y_j}}{g(x_k)} p_X(x_k) = \\sum_{{k}} g(x_k) p_X(x_k) \\end{align*}\nRemark. An analogue of the previous theorem reads \\[\\mathsf{E}(g(X,Y)) = \\sum_{k,j} g(x_k,y_j)p_{X,Y}(x_k,y_j)\\]\nThis allows us to derive the main property of expectation, its linearity.\nTheorem. Linearity of expectation\nAssume \\(X\\) and \\(Y\\) are random variables with joint p.m.f. \\(p_{X,Y}\\); then for all constancts \\(a\\) and \\(b\\), \\[\\boxed{\\mathsf{E}(aX+bY) = a\\mathsf{E}(X) + b\\mathsf{E}(Y)}\\]\nProof.\\begin{align*}\\mathsf{E}(aX+bY) &= \\sum_{k,j} ({ax_k} + {by_j}) p_{X,Y}(x_k,y_j)= \\\\ &= \\sum_{k,j} {ax_k} p_{X,Y}(x_k,y_j) + \\sum_{k,j} {by_j} p_{X,Y}(x_k,y_j) \\\\ &= a\\sum_{k} x_k {\\sum_{j} p_{X,Y}(x_k,y_j)} + b\\sum_{j} y_j {\\sum_{k} p_{X,Y}(x_k,y_j)}\\\\ &= a\\sum_{k} x_k {p_{X}(x_k)} + b\\sum_{j} y_j {p_{Y}(y_j)} = a\\mathsf{E}(X) + b\\mathsf{E}(Y) \\end{align*}\nTheorem. Total probability rule for expectations.\nIf \\(B_1,\\dots,B_n\\) is a partition of the sample space, then \\[ \\boxed{ \\mathsf{E}(X) = \\mathsf{E}(X \\mid B_1) \\mathsf{P}(B_1) + \\dots + \\mathsf{E}(X \\mid B_n) \\mathsf{P}(B_n)} \\]\nProof. For every \\(x\\), \\[ p_X(x) = \\mathsf{P}(X=x) = \\sum_j \\mathsf{P}(X=x \\mid B_j) \\mathsf{P}(B_j) \\]\nBy definition,\n\\begin{align*} \\mathsf{E}(X)&=\\sum_k x_k p_X(x_k)=\\sum_k x_k\\sum_j \\mathsf{P}(X=x_k \\mid B_j) \\mathsf{P}(B_j) \\\\&=\\sum_j\\sum_k x_k\\mathsf{P}(X=x_k \\mid B_j) \\mathsf{P}(B_j)\\\\ &=\\sum_j\\mathsf{E}(X \\mid B_j) \\mathsf{P}(B_j)\\end{align*}\nExample. Let \\(N\\) be the number of tosses of a non-symmetric coin until the first occurrence of two Heads in row. What is the expectation \\(\\mathsf{E}(N)\\) of the random variable \\(N\\)?\nConsider the partition of the corresponding sample space with the events\n\\(T_1\\) — at the first toss we have Tail;\n\\(H_1T_2\\) — at the first toss we have a Head and at the second we have a Tail;\n\\(H_1H_2\\) — at the first toss we have a Head and at the second we have a Head;\nBy the total probability rule for expectations, \\[ \\mathsf{E}(N) = {\\mathsf{E}(N \\mid T_1)}\\mathsf{P}(T_1) +{\\mathsf{E}(N \\mid H_1T_2)}\\mathsf{P}(H_1T_2) + {\\mathsf{E}(N \\mid H_1H_2)}\\mathsf{P}(H_1H_2) \\] If \\(a:=\\mathsf{E}(N)\\), then note that \\[\\mathsf{E}(N \\mid T_1)=a+1\\] as we have performed one toss and it did not bring us closer to two Heads; thus the expected value of tosses to reach the aim is the same plus one toss which we have already made. By analogy, \\[\\mathsf{E}(N \\mid H_1T_2)=a+2.\\] And in the third case \\[\\mathsf{E}(N \\mid H_1H_2)=2\\] as in this case we have made two tosses and reached the aim. Therefore, \\[ a = {(a+1)}q + {(a+2)}pq + {2} p^2, \\] so that \\[ \\mathsf{E}(N) = \\frac{q + 2pq + 2p^2}{1-q-pq} = \\frac{q + 2p}{p^2} = \\frac1p + \\frac1{p^2} \\]\nPrevious section\nVideo\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Previous section",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2642",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2659",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Video",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2642",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2643",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2642",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2650",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2643,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2643",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Properties of expectation (video) | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProperties of expectation (video)\nPrevious section\nText\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Previous section",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2643",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2659",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Text",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2643",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2642",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2643",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2650",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2644,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2644",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Variance (video) | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nVariance (video)\nPrevious\nText\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Previous",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2644",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2659",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Text",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2644",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2651",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2644",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2657",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2645,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2645",
+    "title": "Помилка | LMS Moodle at UCU",
+    "text": "Неможливо знайти сторінки лекції\nДокладніше про цю помилку.\nПродовжити",
+    "forms": []
+  },
+  {
+    "requested_pageid": 2646,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2646",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Q_Covariance | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nLet for two random variables \\(X\\) and \\(Y\\) \\[\\mathsf{Var}(X)=6,\\quad \\mathsf{Var}(Y)=12,\\quad \\mathsf{Var}(X+Y)=2.\\]\nThen the covariance  \\(\\mathsf{Cov}(X,Y)\\) is equal to\nВаша відповідь",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Let for two random variables \\(X\\) and \\(Y\\) \\[\\mathsf{Var}(X)=6,\\quad \\mathsf{Var}(Y)=12,\\quad \\mathsf{Var}(X+Y)=2.\\]\n\nThen the covariance  \\(\\mathsf{Cov}(X,Y)\\) is equal to \n\nВаша відповідь",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2646",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_numerical",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "answer",
+            "value": "",
+            "label": "Ваша відповідь"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2647,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2647",
+    "title": "Помилка | LMS Moodle at UCU",
+    "text": "Неможливо знайти сторінки лекції\nДокладніше про цю помилку.\nПродовжити",
+    "forms": []
+  },
+  {
+    "requested_pageid": 2648,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2648",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Probability generating functions (text) | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProbability generating functions (text)\nThe probability generating function of a discrete random variable is a power series representation of the probability mass function of the random variable.\nDefinition\nThe probability generating function \\(G_X\\) of an integer-valued r.v. \\(X\\) is the function of real variable defined by \\[ G_X(s) = \\mathsf{E}(s^X) = \\sum_k p_X(k)s^k, \\qquad s\\in \\mathbb{R}\\]\nExample. For the indicator r.v. \\(I\\), \\(G_I(s) = (1-p)s^0 + ps^1 = 1-p+ps\\)\nProbability generating functions are very useful in probability theory as their properties often allow to derive some interesting conclusions in an elegant way.\nProperties of p.g.f.\nP.g.f. determines the probability mass function via \\[p_X(k) = G^{(k)}(0)/k!\\]\nP.g.f. determines the \\(k^{\\mathrm{th}}\\) factorial moment of \\(X\\) via \\[G^{(k)}_X(1) = \\mu^{(k)}\\]\nIf \\(Y = X+{a}\\), then \\(G_Y(s) = {s^a} G_X(s)\\)\nIf \\(X\\) and \\(Y\\) are independent, then \\(G_{X+Y}(s) = G_X(s)G_Y(s)\\)\nThe latter property follows from the fact that \\(s^X\\) and \\(s^Y\\) are independent r.v., so that \\[ G_{X+Y}(s) = \\mathsf{E}(s^Xs^Y) = \\mathsf{E}(s^X)\\mathsf{E}(s^Y) = G_X(s)G_Y(s) \\]\nExample. (P.g.f. for binomial distribution)\\[ X = I_1 + \\dots +I_n \\implies G_X(s) = G_{I_1}(s) \\cdots G_{I_n}(s) = \\bigl(G_{I_1}(s)\\bigr)^n = (1-p + ps)^n \\]\nExample. (P.g.f. for sum of independent binomial distributions.) If \\(X \\sim \\mathscr{B}(n,p)\\) and \\(Y\\sim\\mathscr{B}(m,p)\\) are independent, \\[ G_{X+Y}(s) = G_X(s)G_Y(s) = (1-p + ps)^{n+m} \\]\nExample. (P.g.f. for Poisson distribution \\(X \\sim \\mathscr{P}(\\lambda)\\)) \\[ G_X(s) = \\sum_{k\\ge 0} \\frac{\\lambda^k}{k!}e^{-\\lambda}s^k = e^{\\lambda(s-1)} \\] Therefore, \\(\\mu_X^{(k)} = \\lambda^k\\)\nExample. (P.g.f. for sum of independent Poisson distributions) If \\(X \\sim \\mathscr{P}(\\lambda_1)\\) and \\(Y\\sim\\mathscr{P}(\\lambda_2)\\) are independent, \\[ G_{X+Y}(s) = G_X(s)G_Y(s) = e^{(\\lambda_1 + \\lambda_2)(s-1)} \\]\nMoreover, the probability generating function uniquely determines the probability mass function of the random variable.\nTheorem. Uniqueness\nLet \\(X\\) and \\(Y\\) have generating functions \\(G_X (s)\\) and \\(G_Y (s)\\). If \\(G_X (s) = G_Y (s)\\) for \\(|s|<1\\), then \\(X\\) and \\(Y\\) have the same probability mass function.\nProof. Follows from the uniqueness of the power series representation of a given function.\nThis along with the results obtained in previous examples allows us to obtain the following important statements.\nCorollary. \\(X \\sim \\mathscr{B}(n,p)\\) and \\(Y\\sim\\mathscr{B}(m,p)\\) are independent, then \\(X+Y \\sim \\mathscr{B}(n+m,p)\\).\nCorollary. If \\(X \\sim \\mathscr{P}(\\lambda_1)\\) and \\(Y\\sim\\mathscr{P}(\\lambda_2)\\) are independent, then \\(X+Y \\sim \\mathscr{P}(\\lambda_1+\\lambda_2)\\).\nPrevious section\nVideo\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Previous section",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2648",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2652",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Video",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2648",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2655",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2648",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2656",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2649,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2649",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Covariance and correlation (video) | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nCovariance and correlation (video)\nPrevious section\nText\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Previous section",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2649",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2651",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Text",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2649",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2652",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2649",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2658",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2650,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2650",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Q_Properties | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nAssume there are 4 fair dice two of which are blue, one green and one yellow. The blue dice have two sides with 1 dot each, two sides with 2 dots each, two sides with 3 dots each. All sides of the green die have 1 dot each. And the yellow die has three sides with 2 dots each and three sides with 4 dots each. We choose one die randomly.  Let random variable \\(X\\) be the number of dots that face up after you roll this die once. What is expected value of \\(X\\)?\nВаша відповідь",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Assume there are 4 fair dice two of which are blue, one green and one yellow. The blue dice have two sides with 1 dot each, two sides with 2 dots each, two sides with 3 dots each. All sides of the green die have 1 dot each. And the yellow die has three sides with 2 dots each and three sides with 4 dots each. We choose one die randomly.  Let random variable \\(X\\) be the number of dots that face up after you roll this die once. What is expected value of \\(X\\)?\n\nВаша відповідь",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2650",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_numerical",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "text",
+            "name": "answer",
+            "value": "",
+            "label": "Ваша відповідь"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2651,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2651",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Variance (text) | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nVariance (text)\nWe have already got acquainted with a very important characteristic of a random variable, which is its expectation. It describes the weighted average of the possible values of a random variable but it does not tell us anything about the variation, or spread, of these values.\nFor instance, consider the following random variables \\[X=\\left\\{\\begin{array}{cc} -1 & \\text{ with probability } \\frac12 \\\\ 1 & \\text{ with probability } \\frac12 \\end{array}\\right.\\] \\[Y=\\left\\{\\begin{array}{cc} -100 & \\text{ with probability }\\frac12 \\\\ 100 & \\text{ with probability } \\frac12 \\end{array} \\right.\\] Both of them have expected value equal to \\(0\\). But the spread of possible values of \\(Y\\) is much greater than the spread of those of \\(X\\).\nTherefore we need more characteristics of random variables which along with the average of its possible values describes their distribution.\nDefinition (Variance and moments)\nAssume the p.m.f. \\(p_X\\) of a r.v. \\(X\\) satisfies \\(\\sum|x|^kp_X(x)<\\infty\\). Then\nthe \\(k^\\mathrm{th}\\) moment of \\(X\\) is \\(\\mu_k=\\mathsf{E}(X^k)\\);\nthe \\(k^\\mathrm{th}\\) central moment of \\(X\\) is \\(\\sigma_k=\\mathsf{E}\\bigl((X-\\mathsf{E}(X))^k\\bigr)\\);\nthe \\(k^\\mathrm{th}\\) factorial moment of \\(X\\) is \\(\\mu^{(k)}=\\mathsf{E} (X(X-1)\\cdots(X-k+1))\\)\n\\(\\sigma_2\\) is called the variance of \\(X\\) and is denoted \\(\\sigma^2\\) or \\(\\mathsf{Var}(X)\\): \\[ \\mathsf{Var}(X) = \\mathsf{E}\\bigl((X-\\mathsf{E}(X))^2\\bigr) \\] Variance is a measure of dispersion, or spread around the mean\nThe standard deviation of \\(X\\) is \\(\\sigma_X = \\sqrt{\\mathsf{Var}(X)}\\)\nExample. For the indicator \\(I\\), \\(I-\\mathsf{E}(I)\\) assumes values \\(1-p\\) and \\(-p\\) with probabilities \\(p\\) and \\(1-p\\), respectively; thus \\[ \\sigma^2_I = \\mathsf{E}\\bigl((I-\\mathsf{E}(I))^2) = (1-p)^2p + (-p)^2(1-p) = p(1-p) \\]\nProperty (Alternative formula for variance)\n\\begin{align*} \\mathsf{Var} (X)&=\\mathsf{E} \\bigl((X-\\mathsf{E}(X))^2\\bigr) = \\mathsf{E}(X^2 - {2\\mathsf{E}(X)} X + \\mathsf{E}(X)^2)\\\\ &= \\mathsf{E}(X^2) - {2\\mathsf{E}(X)} \\mathsf{E}(X) + \\mathsf{E}(X)^2 = \\mathsf{E}(X^2) - \\mathsf{E}(X)^2 \\end{align*}\nExample. The \\(2^\\mathrm{nd}\\) factorial moment of \\(X \\sim \\mathscr{B}(n,p)\\) is \\begin{align*} \\mu^{(2)}(X) & = \\mathsf{E}(X(X-1)) = \\sum_{k=0}^n k(k-1) p_X(k) \\\\ &= n(n-1) p^2 \\sum_{j=0}^{n-2} \\binom{n-2}{j} p^j(1-p)^{n-j} = n(n-1)p^2 \\end{align*} Therefore, \\begin{align*} \\mathsf{Var}(X) = \\sigma^2_X &= \\mathsf{E}(X^2{-X+X}) - \\mathsf{E}(X)^2 = \\mu^{(2)}(X) + \\mathsf{E}(X) - \\mathsf{E}(X)^2 \\\\ &= n(n-1)p^2 +np - n^2p^2 = np - np^2 = n p(1-p) \\end{align*}\nProperty (Scaling of variance)\n\\begin{align*} \\mathsf{Var}({a}X) &= \\mathsf{E}\\bigl((aX - \\mathsf{E}(aX))^2\\bigr) = \\mathsf{E}\\bigl(a^2(X - \\mathsf{E}(X))^2\\bigr) \\\\ &= {a^2} \\mathsf{E}\\bigl((X - \\mathsf{E}(X))^2 \\bigr) = {a^2} \\mathsf{Var}(X) \\end{align*}\nPrevious\nVideo\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Previous",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2651",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2642",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Video",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2651",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2644",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2651",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2657",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2652,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2652",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Covariance and correlation (text) | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nCovariance and correlation (text)\nIn this section, we consider characteristics describing the relation between two random variables.\nDefinition\nThe covariance of r.v. \\(X\\) and \\(Y\\) is \\[\\mathsf{Cov}(X, Y) = \\mathsf{E}(X - \\mathsf{E}(X))(Y-\\mathsf{E}(Y)) = \\mathsf{E}(XY) - \\mathsf{E}(X) \\mathsf{E}(Y)\\]\nRemark. Note that \\(\\mathsf{Cov}(X,X)=\\mathsf{Var}(X)\\).\nCovariance shows how random variables are related to each other. If covariance is positive, we say that random variables \\(X\\) and \\(Y\\) are positively correlated, which means that larger values of \\(X\\) typically correspond to larger values of \\(Y\\).\nTo obtain the conclusion about covariance of independent random variables we need the following\nTheorem\nIf \\(X\\) and \\(Y\\) are independent, then \\[\\boxed{\\mathsf{E}(X\\cdot Y) = \\mathsf{E}(X) \\cdot \\mathsf{E}(Y)}\\]\nProof. \\begin{align*} \\mathsf{E}(X\\cdot Y) &= \\sum\\nolimits_{k,j} (x_k \\cdot y_j)\\, {p_{X,Y}(x_k,y_j)} \\\\ &= \\sum\\nolimits_{k,j} (x_k \\cdot y_j)\\, {p_{X}(x_k) p_{Y}(y_j)} \\\\ &= \\sum\\nolimits_{k} x_k p_{X}(x_k) \\cdot \\sum\\nolimits_{j} y_j p_{Y}(y_j) = \\mathsf{E}(X) \\cdot \\mathsf{E}(Y) \\end{align*} This theorem implies the\nCorollary. Covariance of independent random variables.\nIf \\(X\\) and \\(Y\\) are independent, then \\(\\mathsf{Cov}(X,Y)=0\\).\nRemark. \\(\\mathsf{Cov}(X,Y)=0\\) does not mean that \\(X\\) and \\(Y\\) are independent.\nTheorem\n\\[ \\mathsf{Var}(X + Y) = \\mathsf{Var}(X) + 2 \\mathsf{Cov}(X,Y) + \\mathsf{Var}(Y)\\]\nProof. \\[\\mathsf{E}(X+Y)= \\mathsf{E}(X) + \\mathsf{E}(Y),\\] so that \\[ (X+Y) - \\mathsf{E}(X+Y) = (X-\\mathsf{E}(X)) + (Y-\\mathsf{E}(Y)), \\] and \\begin{align*} \\mathsf{Var}(X+Y) & = \\mathsf{E}[{(X-\\mathsf{E}(X))} + {(Y-\\mathsf{E}(Y))}]^2 \\\\ &= {\\mathsf{Var}(X)} + 2 \\mathsf{Cov}({X},{Y}) + {\\mathsf{Var}(Y)} \\end{align*}\nTheorem\nIf \\(X\\) and \\(Y\\) are independent, then \\[ \\boxed{\\mathsf{Var}({a}X + {b}Y) = {a^2}\\mathsf{Var}(X) + {b^2}\\mathsf{Var}(Y)}\\]\nProof. By the above, \\[ \\mathsf{Var}(aX + bY) = \\mathsf{Var}(aX) + 2ab\\mathsf{Cov}(X,Y) + \\mathsf{Var}(bY) \\]\nThe value of covariance does not tell us how strongly \\(X\\) and \\(Y\\) are correlated. As for any scaling of random variables \\(X\\) and \\(Y\\) the value of \\(\\mathsf{Cov}(X,Y)\\) changes. But it does not mean that the dependence becomes stronger or weaker. A better measure of the relation between two random variables is  their correlation, which is the normalized covariance.\nDefinition\nCorrelation coefficient between \\(X\\) and \\(Y\\) is \\[ \\boxed{\\mathsf{Corr}(X,Y) = \\rho(X,Y) := \\frac{\\mathsf{Cov}(X,Y)}{\\sigma(X)\\sigma(Y)}} \\]\nProperties of \\(\\mathsf{Corr}(X,Y)\\)\n\\(|\\mathsf{Corr}(X,Y)|\\le 1\\) (Cauchy–Bunyakowsky–Schwarz inequality)\n\\(\\mathsf{Corr}(X,Y) = \\pm1\\) implies \\(Y = aX +b\\) with \\(\\pm a>0\\), the dependence between \\(X\\) and \\(Y\\) is linear\nPrevious section\nVideo\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Previous section",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2652",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2651",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Video",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2652",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2649",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2652",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2658",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2653,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2653",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Q_Var(X+Y)_ind | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nLet r.v. \\(X\\) assume values -2,-1, 0,1 and 2 with equal probabilities and r.v. \\(Y\\) assume values 0 and 20 with probabilities \\(0.5\\). If \\(X\\) and \\(Y\\) are independent then \\(\\mathsf{Var}(2X-Y)\\)\nis equal to 108\nis equal to -92\nWe do not have enough information to define this variance",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Let r.v. \\(X\\) assume values -2,-1, 0,1 and 2 with equal probabilities and r.v. \\(Y\\) assume values 0 and 20 with probabilities \\(0.5\\). If \\(X\\) and \\(Y\\) are independent then \\(\\mathsf{Var}(2X-Y)\\)  \n\nis equal to 108\n\n\nis equal to -92\n\nWe do not have enough information to define this variance",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2653",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_multichoice_singleanswer",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5748",
+            "label": "is equal to 108\n"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5747",
+            "label": "is equal to -92"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5749",
+            "label": "We do not have enough information to define this variance"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2654,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2654",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Reminder | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nReminder\nLessons shouldn't be your only source of information! Don't forget about reading materials for more in-depth point of view!\nReadings for Topic 5\nBack\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Back",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2654",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2648",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2654",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "-9",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2655,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2655",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Probability generating functions (video) | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nProbability generating functions (video)\nPrevious section\nText\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Previous section",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2655",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2652",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Text",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2655",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2648",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2655",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2656",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2656,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2656",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Q_PGF | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nLet \\(X\\) be geometric r.v. with mass function \\(f(k)=(1-q)q^{k-1}\\); \\(k ≥ 1\\), \\(0 < q < 1\\). Then the probability generating function of \\(X\\) is\n\\(\\frac{(1-q)s}{1-qs}\\)\nnone of suggested\n\\(\\frac{qs}{1-qs}\\)\n\\(\\frac{1}{1-qs}\\)",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Let \\(X\\) be geometric r.v. with mass function \\(f(k)=(1-q)q^{k-1}\\); \\(k ≥ 1\\), \\(0 < q < 1\\). Then the probability generating function of \\(X\\) is\n\n\n\\(\\frac{(1-q)s}{1-qs}\\)\n\nnone of suggested\n\n\\(\\frac{qs}{1-qs}\\)\n\n\n\\(\\frac{1}{1-qs}\\)",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2656",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_multichoice_singleanswer",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5738",
+            "label": "\\(\\frac{(1-q)s}{1-qs}\\)"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5741",
+            "label": "none of suggested"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5740",
+            "label": "\\(\\frac{qs}{1-qs}\\)\n"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5739",
+            "label": "\\(\\frac{1}{1-qs}\\)\n"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2657,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2657",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Q_Variance | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nLet a r.v. \\(X\\) assume values -2,-1, 0,1 and 2 with equal probabilities and let a r.v. \\(Y\\) assume values 0 and 20 with probabilities \\(0.5\\).Then\n\\(\\mathsf{Var}(2X)\\) is equal to\nВибрати...\n190\n10\n8\n\\(\\mathsf{E}(2X+Y)\\) is equal to\nВибрати...\n190\n10\n8\nthe second factorial moment \\(\\mu^{(2)}_Y\\) is equal to\nВибрати...\n190\n10\n8",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Let a r.v. \\(X\\) assume values -2,-1, 0,1 and 2 with equal probabilities and let a r.v. \\(Y\\) assume values 0 and 20 with probabilities \\(0.5\\).Then\n\n\\(\\mathsf{Var}(2X)\\) is equal to \n\nВибрати...\n190\n10\n8\n\n\\(\\mathsf{E}(2X+Y)\\) is equal to \n\nВибрати...\n190\n10\n8\n\nthe second factorial moment \\(\\mu^{(2)}_Y\\) is equal to \n\nВибрати...\n190\n10\n8",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2657",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_matching",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "SELECT",
+            "type": "select-one",
+            "name": "response[5735]",
+            "value": "",
+            "label": "\\(\\mathsf{Var}(2X)\\) is equal to "
+          },
+          {
+            "tag": "SELECT",
+            "type": "select-one",
+            "name": "response[5736]",
+            "value": "",
+            "label": "\\(\\mathsf{E}(2X+Y)\\) is equal to "
+          },
+          {
+            "tag": "SELECT",
+            "type": "select-one",
+            "name": "response[5737]",
+            "value": "",
+            "label": "the second factorial moment \\(\\mu^{(2)}_Y\\) is equal to "
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2658,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2658",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Q_Var(X+Y) | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nLet a r.v. \\(X\\) assume values -2,-1, 0,1 and 2 with equal probabilities and a r.v. \\(Y\\) assume values 0 and 20 with probabilities \\(0.5\\). Then \\(\\mathsf{Var}(2X+Y)\\)\nis equal to 108\nis equal to 8\nWe do not have enough information to define this variance",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Let a r.v. \\(X\\) assume values -2,-1, 0,1 and 2 with equal probabilities and a r.v. \\(Y\\) assume values 0 and 20 with probabilities \\(0.5\\). Then \\(\\mathsf{Var}(2X+Y)\\)  \n\nis equal to 108\n\n\nis equal to 8\n\nWe do not have enough information to define this variance",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2658",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "_qf__lesson_display_answer_form_multichoice_singleanswer",
+            "value": "1",
+            "label": ""
+          },
+          {
+            "tag": "FIELDSET",
+            "type": "fieldset",
+            "name": "pageheader",
+            "value": null,
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5745",
+            "label": "is equal to 108\n"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5744",
+            "label": "is equal to 8"
+          },
+          {
+            "tag": "INPUT",
+            "type": "radio",
+            "name": "answerid",
+            "value": "5746",
+            "label": "We do not have enough information to define this variance"
+          },
+          {
+            "tag": "INPUT",
+            "type": "submit",
+            "name": "submitbutton",
+            "value": "Відправити",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "requested_pageid": 2659,
+    "url": "https://learn.ucu.edu.ua/mod/lesson/view.php?id=105021&pageid=2659",
+    "title": "Теорія ймовірностей та математична статистика (1.26-27.): L5: Expectation: Expectation (text) | LMS Moodle at UCU",
+    "text": "The activity Lesson 5 introduces the notion of the expectation, variance, covariance, correlation and probability generating functions. Please read the explanations/watch the videos and answer correctly short practice questions in this lesson to get access to Quiz no. 5. Note that Quiz no. 5 cannot be reached in any other way but via Lesson 5.\nУмови завершення:\nЗробити:\nВитратьте принаймні 10 хв на цю діяльність\nЗробити:\nПройдіть вправу до кінця\nЗробити:\nОтримати оцінку\nExpectation (text)\nIn this section, we introduce the notion of expectation. Expectation is a characteristic of a random variable \\(X\\) which is intuitively the arithmetic mean of a large number of independent realisations of \\(X\\).\nExample. Assume we toss a biased coin (having probability \\(p\\) of showing Head) \\(n\\) times; how many Heads in these \\(n\\) tosses will we get on average?\nTo estimate the average number of Heads, we\nrepeat experiment \\(m\\) times, and\ncount the number \\(X_k\\) of Heads in the \\(k^{\\mathrm{th}}\\) run;\nthen the average number of Heads per experiment is \\[ \\overline{X}:= \\tfrac1m(X_1 + X_2 + \\cdots + X_m) \\]\nNote that \\(X_k\\) is a particular realization of a Binomial random variable \\(X\\) which has distribution \\(\\mathcal{B}(n,p)\\), because we repeat \\(n\\) times the experiment of tossing a coin and the probability of success (getting Head) is \\(p\\).\nNow let us try to compute this average value in a different way. Denote by \\(p_X\\) the p.m.f. of the random variable \\(X\\). Then \\(p_X(j)\\), \\(j=0,...,n\\), is the probability that \\(X\\) takes value \\(j\\), i.e. that in \\(n\\) tosses we get exactly \\(j\\) Heads. Intuitively we understand this probability as a relative frequency of those experiments (out of \\(m\\)) when we get \\(j\\) Heads in total. In other words, let k be the number of experiments when we get j Heads in n tosses. Intuitively, \\(p_X(j) \\approx \\frac{k}{m}\\). So k should be approximately \\(m\\cdot p_X(j)\\). Thus \\(j m p_X(j)\\) is the (approximate) total number of Heads obtained only in those experiments when we get exactly \\(j\\) Heads. Therefore, \\[X_1 + X_2 + \\cdots + X_m\\approx \\sum\\limits_{j=0}^n j \\cdot {m \\cdot p_X(j)}\\] and \\[\\overline X \\approx \\sum\\limits_{j=0}^n j \\cdot p_X(j)\\] This expression gives us an average number of Heads in \\(n\\) tosses; it is taken as a definition of the expected value of a random variable \\(X\\).\nDefinition\nAssume that \\(X\\) is a random variable with values \\(x_1,x_2,\\dots\\). If \\(\\sum_k |x_k|p_X(x_k)<\\infty\\), then the expected value  \\(\\mathsf{E}(X)\\) of \\(X\\) (also called the expectation, mean value, average, or first moment of \\(X\\)) is \\[ \\mathsf{E}(X) = \\sum_k x_k p_X(x_k) \\]\nExample. For any event \\(A \\in \\mathcal{F}\\), let \\(I_A\\) be the indicator r.v. of \\(A\\): \\[ I_A(\\omega) = \\begin{cases} 0, \\qquad & \\quad \\omega \\not\\in A\\\\ 1, \\qquad & \\quad \\omega \\in A \\end{cases} \\] The p.m.f. of \\(I_A\\) is \\(p_I(0) = 1-\\mathsf{P}(A)\\), \\(p_I(1) = \\mathsf{P}(A)\\), and thus \\[ \\mathsf{E}(I_A) = 0 \\cdot p_I(0) + 1 \\cdot p_I(1) = \\mathsf{P}(A) \\] In general, \\(X\\) is an indicator r.v. if \\(\\mathsf{P}(X=0)+ \\mathsf{P}(X=1) = 1\\); then \\(X = I_A\\) for \\(A:= \\{X=1\\}\\).\nExample. (Binomial distribution) For \\(X\\) with binomial distribution \\(\\mathscr{B}(n,p)\\): \\begin{align*} \\mathsf{E}(X) &= \\sum_{k=0}^n k \\binom{n}{k}p^k(1-p)^{n-k} \\\\ &= np\\sum_{k=1}^n \\binom{n-1}{k-1}p^{k-1}(1-p)^{n-k}\\\\ &= np (p + 1-p) ^{n-1}= np \\end{align*}\nExample. (Infinite expectation) For \\(X\\) with p.m.f. \\(p_X(k) = 1/(k(k+1))\\), \\(k\\in\\mathbb{N}\\), the series \\[ \\sum_{k\\ge1} \\frac{k}{k(k+1)} = \\sum_{k\\ge1}\\frac{1}{k+1} \\]  does not converge, thus \\(\\mathsf{E}(X) = +\\infty\\).\nVideo\nNext",
+    "forms": [
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Video",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2659",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2640",
+            "label": ""
+          }
+        ]
+      },
+      {
+        "action": "https://learn.ucu.edu.ua/mod/lesson/continue.php",
+        "text": "Next",
+        "inputs": [
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "id",
+            "value": "105021",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "pageid",
+            "value": "2659",
+            "label": ""
+          },
+          {
+            "tag": "INPUT",
+            "type": "hidden",
+            "name": "jumpto",
+            "value": "2641",
+            "label": ""
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,721 @@
+--- PAGE 1 ---
+Probability theory and statistics
+Lecture Notes
+P&S team
+Ukrainian Catholic University
+BA & CS Programmes
+3rd term
+Autumn 2020
+
+
+--- PAGE 2 ---
+Expectation Variance Generating functions
+Lecture 5. Expectation
+
+--- PAGE 3 ---
+Expectation Variance Generating functions
+Outline
+1 Expectation
+Motivation and deﬁnition
+Properties of expectation
+2 Variance
+Variance and moments
+Expectation of the product
+Covariance
+3 Generating functions and their applications
+Deﬁnition
+Examples
+Properties
+
+--- PAGE 4 ---
+Expectation Variance Generating functions
+Outline
+1 Expectation
+Motivation and deﬁnition
+Properties of expectation
+2 Variance
+Variance and moments
+Expectation of the product
+Covariance
+3 Generating functions and their applications
+Deﬁnition
+Examples
+Properties
+
+--- PAGE 5 ---
+Expectation Variance Generating functions
+Question
+Assume we toss a biased coin n times; how many Heads will we get on
+average?
+repeat experiment m times;
+count the number Xk of Heads in the k th run;
+the average number of Heads per experiment is
+X := 1
+m (X1 + X2 +··· + Xm)
+Solution
+If m is large, we expect that approximately m· pX (j) of repetitions have j
+Heads, j = 0, 1,..., n. Therefore,
+X1 + X2 +··· + Xm≈
+n∑
+j=0
+j· m· pX (j)
+and
+X≈
+n∑
+j=0
+j· pX (j)
+
+--- PAGE 6 ---
+Expectation Variance Generating functions
+Expectation
+Deﬁnition
+Assume that X is a random variable with values x1, x2,... . If∑
+k|xk|pX (xk )<∞, then the expected valuea E(X ) of X is
+E(X ) =
+∑
+k
+xkpX (xk )
+aalso called the expectation, mean value, average, or ﬁrst momentof X
+Example (An indicator r.v.)
+For any event A∈ F, let IA be the indicator r.v. of the event A:
+IA(ω) =
+{
+0, ω ⁄∈ A
+1, ω ∈ A
+The p.m.f. of IA: pI(0) = 1− P(A), pI(1) = P(A), and
+E(IA) = 0· pI(0) + 1· pI(1) = P(A)
+In general, X is an indicator r.v. if P(X = 0) + P(X = 1) = 1;
+then X = IA for A :={X = 1}
+
+--- PAGE 7 ---
+Expectation Variance Generating functions
+Example (Binomial distribution)
+For X with binomial distribution B(n, p):
+E(X ) =
+n∑
+k=0
+k
+(n
+k
+)
+pk (1− p)n−k = np
+n∑
+k=1
+(n− 1
+k− 1
+)
+pk−1(1− p)n−k
+= np(p + 1− p)n−1 = np
+Example (Inﬁnite expectation)
+For X with p.m.f. pX (k) = 1/[k(k + 1)], k∈ N, the series
+∑
+k≥1
+k
+k(k + 1) =
+∑
+k≥1
+1
+k + 1
+does not converge, thus E(X ) = +∞
+
+--- PAGE 8 ---
+Expectation Variance Generating functions
+Useful formula
+If X≥ 0 and assumes integer values, then
+E(X ) =
+∑
+k≥1
+P(X≥ k)
+Proof:
+∑
+k≥1
+P(X≥ k) =
+∑
+k≥1
+∑
+j≥k
+P(X = j) =
+∑
+j≥1
+j∑
+k=1
+P(X = j) =
+∑
+j≥1
+j P(X = j)
+Example (Geometric distribution)
+If X∼ G (p), then
+E(X ) =
+∑
+k≥1
+P(X≥ k ) =
+∑
+k≥1
+qk−1 = 1
+pDirect calculations:
+E(X ) =∑
+k≥1 kpqk−1 = p
+(∑
+k≥1 qk)′
+= p·
+( 1
+1− q
+)′
+= p
+(1− q)2 = p
+p2 = 1
+p
+
+--- PAGE 9 ---
+Expectation Variance Generating functions
+Outline
+1 Expectation
+Motivation and deﬁnition
+Properties of expectation
+2 Variance
+Variance and moments
+Expectation of the product
+Covariance
+3 Generating functions and their applications
+Deﬁnition
+Examples
+Properties
+
+--- PAGE 10 ---
+Expectation Variance Generating functions
+Functions of r.v.
+If g is a function on R, what is the distribution of Y := g◦ X = g(X )?
+The values of Y are g(xk );
+label all pairwise distinct values by yj; then
+pY (yj ) = P(Y = yj ) =
+∑
+k
+P(g(X ) = yj| X = xk )P(X = xk )
+=
+∑
+k:g(xk )=yj
+P(X = xk ) =
+∑
+k:g(xk )=yj
+pX (xk )
+Theorem (Expectation of g(X ))
+E(g(X )) =
+∑
+k
+g(xk )pX (xk )
+Indeed, E (Y ) =
+∑
+j
+yj pY (yj ) =
+∑
+j
+yj
+∑
+k:g(xk )=yj
+pX (xk )
+=
+∑
+j
+∑
+k:g(xk )=yj
+g(xk )pX (xk ) =
+∑
+k
+g(xk )pX (xk )
+
+--- PAGE 11 ---
+Expectation Variance Generating functions
+Example (St. Petersburg paradox)
+T is the no. of games played; P(T = k) = qk−1p, k∈ N
+T is ﬁnite since∑
+k≥1 P(T = k ) = 1; thus we always win 1
+X is the winning bet; X = 2T−1
+mean value of the winning bet:
+E(X ) = E(2T−1) =
+∑
+k≥1
+2k−1qk−1p = +∞
+since 2q≥ 1
+if at most N games can be played, then the expected gain is
+P{T≤ N}− (2N−1)P{T > N} = 1−2NP{T > N} = 1− (2q)N≤ 0
+
+--- PAGE 12 ---
+Expectation Variance Generating functions
+Linearity of expectation
+Theorem: Assume X and Y are r.v. with joint p.m.f. pX,Y ; then
+E(aX + bY ) = aE(X ) + bE(Y )
+Remark: An analogue of the previous thm reads
+E(g(X, Y )) =∑
+k,j g(xk, yj )pX,Y (xk, yj )
+Proof.
+E(aX + bY ) =
+∑
+k,j
+(axk + byj )pX,Y (xk, yj )
+=
+∑
+k,j
+axkpX,Y (xk, yj ) +
+∑
+k,j
+byjpX,Y (xk, yj )
+= a
+∑
+k
+xk
+∑
+j
+pX,Y (xk, yj ) + b
+∑
+j
+yj
+∑
+k
+pX,Y (xk, yj )
+= a
+∑
+k
+xkpX (xk ) + b
+∑
+j
+yjpY (yj ) = aE(X ) + bE(Y )
+
+--- PAGE 13 ---
+Expectation Variance Generating functions
+Randomized quicksort algorithm
+Aim is to sort any set of numbers in increasing order
+Example: 2 , 7, 6, 3, 1, 8, 5, 4
+2, 1|{z}
+<3
+, 3, 6, 7, 8, 5, 4| {z }
+>3
+Then recursion on both parts: e.g., 6 , 7, 8, 5, 4 ↦→ 6, 7, 5, 4| {z }
+<8
+, 8
+then continue with 6 , 7, 5, 4 ↦→ 4, 5, 7, 6 ↦→ 4, 5, 6, 7
+Total number of comparisons: 7 + 1 + 4 + 3 + 1 = 16;
+worst case: O(n2)
+Idea: randomised pivoting, i.e., on each step, choose a pivot randomly
+Question: how many comparisons on average?
+Answer: O(n log n)
+
+--- PAGE 14 ---
+Expectation Variance Generating functions
+Randomized quicksort algorithm
+Input: any of n! equally likely permutations of 1, 2,..., n
+X is a random number of comparisons made when pivots are
+chosen uniformly at random
+were i and j (i < j) compared?
+Xij a comparison indicator (= 1 if i and j got compared, = 0 else)
+Xij = 1 iff i or j was a pivot before any of i + 1,..., j− 1
+(otherwise i and j are moved to different parts sorted
+independently)
+thus E(Xij ) = P(Xij = 1) = 2/(j− i + 1) and
+E(X ) =
+∑
+i<j
+E(Xij ) =
+∑
+i<j
+2
+j− i + 1 =
+∑n
+i=1
+∑n
+j=i+1
+2
+j− i + 1
+≤
+∑n
+i=1
+∑n
+k=1
+2
+k = 2n
+∑n
+k=1
+1
+k = O(n log n)
+
+--- PAGE 15 ---
+Expectation Variance Generating functions
+Inclusion-exclusion formula: For arbitrary A1, . . . ,An,
+P(A1∪···∪ An) =
+∑
+k
+P(Ak ) −
+∑
+1≤i1<i2≤n
+P(Ai1Ai2)
++
+∑
+1≤i1<i2<i3≤n
+P(Ai1Ai2Ai3) +··· + (−)n−1P(A1··· An)
+Proof.
+Set A =∪Ak; by de Morgan’s ruleAc = Ac
+1··· Ac
+n
+In terms of indicators, IAc = IAc
+1
+··· IAcn, i.e.,
+1− IA =
+∏
+(1− IAk ) = 1−
+∑
+IAk +
+∑
+1≤i1<i2≤n
+IAi1
+IAi2
++...
+= 1−
+∑
+IAk +
+∑
+1≤i1<i2≤n
+IAi1∩Ai2
++...
+take expectations and recall that E(IB) = P(B)
+
+--- PAGE 16 ---
+Expectation Variance Generating functions
+Total probability rule for expectations
+Total probability rule for expectations
+If B1,..., Bn is a partition of the sample space, then
+E(X ) = E(X| B1)P(B1) +··· + E(X| Bn)P(Bn)
+Reason: for every x, px (x) = P(X = x) =∑
+j P(X = x| Bj )P(Bj )
+Example
+Let N be the number of tosses of a non-symmetric coin until the ﬁrst
+occurrence of two Heads in row. Then
+E(N) = E(N| T1)P(T1) + E(N| H1T2)P(H1T2) + E(N| H1H2)P(H1H2)
+If a := E(N), then a = (a + 1)q + (a + 2)pq + 2p2, so that
+E(N) = q + 2pq + 2p2
+1− q− pq = q + 2p
+p2 = 1
+p + 1
+p2
+
+--- PAGE 17 ---
+Expectation Variance Generating functions
+Outline
+1 Expectation
+Motivation and deﬁnition
+Properties of expectation
+2 Variance
+Variance and moments
+Expectation of the product
+Covariance
+3 Generating functions and their applications
+Deﬁnition
+Examples
+Properties
+
+--- PAGE 18 ---
+Expectation Variance Generating functions
+Variance and moments
+Deﬁnition (Variance and moments)
+Assume the p.m.f. pX of a r.v. X satisﬁes∑|x|kpX (x)<∞. Then
+the k th moment of X isµk = E(X k );
+the k th central moment of X isσk = E
+(
+(X− E(X ))k)
+;
+the k th factorial moment of X isµ(k) = E(X (X− 1)··· (X− k + 1))
+σ2 is called the variance of X and is denotedσ2 or Var(X ):
+Var(X ) = E
+(
+(X− E(X ))2)
+Variance is a measure of dispersion, or spread around the mean
+The standard deviation of X isσX =
+√
+Var(X )
+Example
+For the indicator I, I− E(I) assumes values 1− p and−p with
+probabilities p and 1− p respectively, thus
+σ2
+I = E
+(
+(I− E(I))2) = ( 1− p)2p + (−p)2(1− p) = p(1− p)
+
+--- PAGE 19 ---
+Expectation Variance Generating functions
+Example
+Properties of variance: alternative formula and scaling
+E
+(
+(X− E(X ))2)
+= E(X 2− 2E(X )X + E(X )2)
+= E(X 2)− 2E(X )E(X ) + E(X )2 = E(X 2)− E(X )2
+Var(aX ) = E
+(
+(aX− E(aX ))2)
+= E
+(
+a2(X− E(X ))2)
+= a2E
+(
+(X− E(X ))2)
+= a2Var(X )
+The binomial distribution
+Probabilistic meaning of X∼ B(n, p): numbers of successes in the
+Bernoulli trials (e.g., number of Heads in n tossing of a biased coin)
+denote by Ik the success indicator of the k th trial: Ik = 1 if that trial
+was a success and Ik = 0 otherwise
+then X = I1 + I2 +··· + In
+Therefore, E (X ) = E(I1) + E(I2) +··· + E(In) = nE(I1) = np
+
+--- PAGE 20 ---
+Expectation Variance Generating functions
+Binomial distribution
+Example
+The 2nd factorial moment of X∼ B(n, p) is
+µ(2)(X ) = E(X (X− 1)) =
+n∑
+k=0
+k (k− 1)pX (k )
+= n(n− 1)p2
+n−2∑
+j=0
+(n− 2
+j
+)
+pj (1− p)n−k = n(n− 1)p2
+Therefore,
+Var(X ) = σ2
+X = E(X 2− X + X )− E(X )2 =µ(2)(X ) + E(X )− E(X )2
+= n(n− 1)p2 + np− n2p2 = np− np2 = np(1− p)
+
+--- PAGE 21 ---
+Expectation Variance Generating functions
+Outline
+1 Expectation
+Motivation and deﬁnition
+Properties of expectation
+2 Variance
+Variance and moments
+Expectation of the product
+Covariance
+3 Generating functions and their applications
+Deﬁnition
+Examples
+Properties
+
+--- PAGE 22 ---
+Expectation Variance Generating functions
+Expectation of the product
+Theorem: If X and Y are independent, then
+E(X· Y ) = E(X )· E(Y )
+Proof.
+E(X· Y ) =
+∑
+k,j
+(xk· yj ) pX,Y (xk, yj )
+=
+∑
+k,j
+(xk· yj ) pX (xk )pY (yj )
+=
+∑
+k
+xkpX (xk )·
+∑
+j
+yjpY (yj ) = E(X )· E(Y )
+Example (Indicators Ik and Ij in the Bernoulli experiment)
+E(IkIj ) = E(Ik )· E(Ij ) = p2 if k⁄= j;
+thus for X = I1 +··· + In∼ B(n, p) we ﬁnd that
+E(X 2) = E((I1 +··· + In)2) =∑ E(I 2
+k ) +∑
+k⁄=j E(IkIj ) = np + n(n− 1)p2
+and µ(2)(X ) = E(X 2)− E(X ) = n(n− 1)p2 as found above
+
+--- PAGE 23 ---
+Expectation Variance Generating functions
+Outline
+1 Expectation
+Motivation and deﬁnition
+Properties of expectation
+2 Variance
+Variance and moments
+Expectation of the product
+Covariance
+3 Generating functions and their applications
+Deﬁnition
+Examples
+Properties
+
+--- PAGE 24 ---
+Expectation Variance Generating functions
+Covariance
+Deﬁnition
+The covariance of r.v. X and Y is
+Cov(X, Y ) = E(X− E(X ))(Y− E(Y )) = E(XY )− E(X )E(Y )
+Corollary
+If X and Y are independent, then Cov(X, Y ) = 0.
+Corollary
+Var(X + Y ) = Var(X ) + 2Cov(X, Y ) + Var(Y )
+Proof.
+E(X + Y ) = E(X ) + E(Y ), so that
+(X + Y )− E(X + Y ) = ( X− E(X )) + (Y− E(Y )),
+and
+Var(X + Y ) = E[(X− E(X )) + (Y− E(Y ))]2
+= Var(X ) + 2Cov(X, Y ) + Var(Y )
+
+--- PAGE 25 ---
+Expectation Variance Generating functions
+Variance of the sum
+Theorem: If X and Y are independent, then
+Var(aX + bY ) = a2Var(X ) + b2Var(Y )
+Proof.
+By the above,
+Var(aX + bY ) = Var(aX ) + 2abCov(X, Y ) + Var(bY )
+Example (Binomial distribution)
+Recall that X∼ B(n, p) is equal to I1 + I2 +... In, there Ik is the
+indicator of success in k th trial of the Bernoulli experiment. As the
+indicators are independent,
+Var(X ) = Var(I1 +··· +In) = Var(I1)+··· +Var(In) = nVar(I1) = np(1−p)
+
+--- PAGE 26 ---
+Expectation Variance Generating functions
+Covariance vs correlation coefﬁcient
+Meaning of covariance: Cov(X, Y )> 0 =⇒
+X and Y dependent
+larger values of X typically correspond to larger values of Y
+(positive correlation)
+Remark
+Cov(X, Y ) = 0 does not mean X and Y are independent
+Cov(X, Y ) is a bilinear form
+Correlation coefﬁcient between X and Y:
+Cor(X, Y ) = ρ(X, Y ) := Cov(X, Y )
+σ(X )σ(Y )
+Properties of Cor(X, Y )
+|Cor(X, Y )|≤ 1 (Cauchy–Bunyakowsky–Schwarz inequality)
+Cor(X, Y ) =±1 implies Y = aX + b
+
+--- PAGE 27 ---
+Expectation Variance Generating functions
+Outline
+1 Expectation
+Motivation and deﬁnition
+Properties of expectation
+2 Variance
+Variance and moments
+Expectation of the product
+Covariance
+3 Generating functions and their applications
+Deﬁnition
+Examples
+Properties
+
+--- PAGE 28 ---
+Expectation Variance Generating functions
+Probability generating functions
+Deﬁnition
+The probability generating function GX of the integer valued r.v. X is
+deﬁned by
+GX (s) = E(sX ) =∑
+k pX (k)sk, s∈ R
+Example
+For the indicator r.v. I, GI(s) = ( 1− p)s0 + ps1 = 1− p + ps
+Properties of p.g.f:
+pX (k ) = G(k)(0)/k! (so G generates p.m.f.)
+G(k)
+X (1) = µ(k) (the k th factorial moment of X)
+If Y = X + a, then GY (s) = saGX (s)
+If X and Y are independent, then GX +Y (s) = GX (s)GY (s)
+The latter property follows from the fact that sX and sY are independent
+r.v., so that
+GX +Y (s) = E(sXsY ) = E(sX )E(sY ) = GX (s)GY (s)
+
+--- PAGE 29 ---
+Expectation Variance Generating functions
+Outline
+1 Expectation
+Motivation and deﬁnition
+Properties of expectation
+2 Variance
+Variance and moments
+Expectation of the product
+Covariance
+3 Generating functions and their applications
+Deﬁnition
+Examples
+Properties
+
+--- PAGE 30 ---
+Expectation Variance Generating functions
+Examples
+Example (Binomial distribution)
+X = I1+··· +In =⇒ GX (s) = GI1(s)··· GIn (s) =
+(
+GI1(s)
+)n = (1−p+ps)n
+Example (Sum of independent binomial distributions)
+If X∼ B(n, p) and Y∼ B(m, p) are independent,
+GX +Y (s) = GX (s)GY (s) = ( 1− p + ps)n+m
+Example (Poisson distribution X∼ P(λ))
+GX (s) =
+∑
+k≥0
+λk
+k! e−λsk = eλ(s−1)
+Therefore,µ(k)
+X =λk
+Example (Sum of independent Poisson distributions)
+If X∼ P(λ1) and Y∼ P(λ2) are independent,
+GX +Y (s) = GX (s)GY (s) = e(λ1+λ2)(s−1)
+
+--- PAGE 31 ---
+Expectation Variance Generating functions
+Outline
+1 Expectation
+Motivation and deﬁnition
+Properties of expectation
+2 Variance
+Variance and moments
+Expectation of the product
+Covariance
+3 Generating functions and their applications
+Deﬁnition
+Examples
+Properties
+
+--- PAGE 32 ---
+Expectation Variance Generating functions
+Uniqueness
+Theorem (Uniqueness)
+Let X and Y have generating functions G X (s) and GY (s). If
+GX (s) = GY (s) for |s|< 1,
+then X and Y have the same probability mass function.
+Proof.
+Follows from uniqueness of the power series∑
+k pX (k)sk
+Corollary
+X∼ B(n, p) and Y∼ B(m, p) are independent, then
+X + Y∼ B(n + m, p)
+Corollary
+If X∼ P(λ1) and Y∼ P(λ2) are independent, then
+X + Y∼ P(λ1 +λ2)
+
+--- PAGE 33 ---
+Expectation Variance Generating functions
+Example: Let N be the number of tosses of a coin until two Heads
+occur in row
+By the total probability rule for expectations, GN (s) = E(sN ) satisﬁes
+GN (s) = E(sN|T1)P(T1) + E(sN|H1T2)P(H1T2) + E(sN|H1H2)P(H1H2)
+= E(sN+1)q + E(sN+2)pq + s2p2
+so that
+GN (s) = s2p2
+1− sq− s2pq
+In particular,
+E(N) = G′
+N (1) = 2sp2(1− sq− s2pq) + s2p2(q + 2spq)
+(1− sq− s2pq)2
+⏐⏐⏐
+s=1
+= 2p2 + q + 2pq
+p2 = 1 + p
+p2
+As explained above, G(k)
+N (0)/k! = pN (k ), which gives the p.m.f. of N

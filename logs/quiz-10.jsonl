@@ -1,0 +1,1 @@
+{"timestamp": "2026-10-09T07:36:31.040443+00:00", "event": "quiz_failed", "error": "Locator.wait_for: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\"#mod_quiz_preflight_form\") to be visible\n"}

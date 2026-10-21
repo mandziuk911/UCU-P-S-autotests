@@ -1,0 +1,1193 @@
+--- PAGE 1 ---
+Probability theory and statistics
+Lecture Notes
+P&S team
+Ukrainian Catholic University
+BA & CS Programmes
+3rd term
+Autumn 2025
+
+
+--- PAGE 2 ---
+Probability density function Continuous distributions Joint distributions
+Lecture 6. Continuous random variables
+
+--- PAGE 3 ---
+Probability density function Continuous distributions Joint distributions
+Outline
+1 Probability density function
+Continuous random variables
+Properties of continuous r.v.
+Expectation and variance
+2 Continuous distributions and their properties
+Uniform distribution
+Normal, or Gaussian distribution
+Exponential distribution
+3 Joint distributions; transformation of random variables
+Joint distributions
+Independence
+Covariance and correlation
+Transformations
+Conditional distributions
+
+--- PAGE 4 ---
+Probability density function Continuous distributions Joint distributions
+Outline
+1 Probability density function
+Continuous random variables
+Properties of continuous r.v.
+Expectation and variance
+2 Continuous distributions and their properties
+Uniform distribution
+Normal, or Gaussian distribution
+Exponential distribution
+3 Joint distributions; transformation of random variables
+Joint distributions
+Independence
+Covariance and correlation
+Transformations
+Conditional distributions
+
+--- PAGE 5 ---
+Probability density function Continuous distributions Joint distributions
+Example
+A point P is randomly chosen inside a
+triangle ∆ of height h and base a
+the distance from P to the base is
+measured and denoted X
+thus Ω ={interior points of ∆};
+F ={“good” subsets ofΩ};
+P is a uniform measure (area)
+X is a r.v. on (Ω, F, P)
+c.d.f. (cumulative distribution function) of X:
+P(X > x) = µ(∆1)
+µ(∆) =
+(h− x
+h
+)2
+therefore,
+FX (x) = P(X≤ x) = x
+h
+(
+2− x
+h
+)
+, 0≤ x≤ h
+
+--- PAGE 6 ---
+Probability density function Continuous distributions Joint distributions
+Probability density function
+The c.d.f. of X is continuous!
+FX (x) = 0 for x≤ 0
+FX (x) = 1 for x≥ h
+P(a< X≤ b) = FX (b)− FX (a)
+P({X = a}) = 0
+Deﬁnition (Probability density function)
+If the c.d.f. FX is differentiable (save ﬁnitely many pts),X is called
+continuous. Derivative F′
+X (x) is called the probability density function
+(p.d.f.) of the r.v.X and is denoted fX (x)
+Properties of p.d.f.:
+fX (x)≥ 0;
+P(a< X≤ b) =
+∫ b
+a fX (t) dt
+in particular,
+∫
+R fX (t) dt = 1
+
+
+--- PAGE 7 ---
+Probability density function Continuous distributions Joint distributions
+Outline
+1 Probability density function
+Continuous random variables
+Properties of continuous r.v.
+Expectation and variance
+2 Continuous distributions and their properties
+Uniform distribution
+Normal, or Gaussian distribution
+Exponential distribution
+3 Joint distributions; transformation of random variables
+Joint distributions
+Independence
+Covariance and correlation
+Transformations
+Conditional distributions
+
+--- PAGE 8 ---
+Probability density function Continuous distributions Joint distributions
+Properties of continuous r.v.
+fX≥ 0 and
+∫
+R fX (x) dx = 1 (the only requirements on p.d.f.!)
+Example
+Assume that fX (x) = 0 for x≤ a and fX (x) = c/x2 for x≥ a. What is c?
+As
+∫
+R fX = 1, we ﬁnd that c = a
+For any a∈ R, P({X = a}) = 0:
+P({a−ε< X≤ a +ε}) = FX (a +ε)− FX (a−ε)→ 0 as ε→ 0
+since FX is continuous at x = a
+Therefore, the inclusion{X = a}⊂{ a−ε< X≤ a +ε} implies
+P({X = a})≤ P({a−ε< X≤ a +ε})→ 0 as ε→ 0
+If Y = aX + b with a> 0, then
+FY (y) = P(Y≤ y) = P(X≤ (y− b)/a) = FX
+(
+(y− b)/a
+)
+=⇒
+fY (y) = F′
+Y (y) = 1
+afX ( y−b
+a )
+
+--- PAGE 9 ---
+Probability density function Continuous distributions Joint distributions
+Outline
+1 Probability density function
+Continuous random variables
+Properties of continuous r.v.
+Expectation and variance
+2 Continuous distributions and their properties
+Uniform distribution
+Normal, or Gaussian distribution
+Exponential distribution
+3 Joint distributions; transformation of random variables
+Joint distributions
+Independence
+Covariance and correlation
+Transformations
+Conditional distributions
+
+--- PAGE 10 ---
+Probability density function Continuous distributions Joint distributions
+Expectation
+For a discrete r.v., E(X ) =∑
+k xkpX (xk)
+For a continuous r.v.,
+E(X ) :=
+∫
+R
+x fX (x) dx
+provided
+∫
+R|x| fX (x) dx <∞.
+Example
+In the above example with a triangle,
+fX (x) = F′
+X (x) =
+{
+0, x⁄∈ (0, h)
+2
+h (1− x
+h ), x∈ (0, h)
+therefore,
+E(X ) =
+∫
+R
+x fX (x) dx = 2
+∫ h
+0
+x
+h (1− x
+h ) dx = x2
+h
+⏐⏐⏐
+h
+0
+− 2x3
+3h2
+⏐⏐⏐
+h
+0
+= h
+3
+
+--- PAGE 11 ---
+Probability density function Continuous distributions Joint distributions
+Example
+Example
+If fX (x) = a/x2 for x≥ a> 0 and fX (x) = 0 otherwise, then
+FX (x) =
+∫ x
+a
+as−2 ds = 1− a/x for x > a;
+E(X ) =
+∫
+R
+x fX (x) dx =
+∫ ∞
+a
+a dx
+x =∞
+thus X does not have ﬁnite expectation
+
+--- PAGE 12 ---
+Probability density function Continuous distributions Joint distributions
+Example
+Example (Standard normal distribution)
+A r.v. with p.d.f. f (x) = e−x2/2/
+√
+2π is said to have a standard normal
+distribution. Observe that indeed (use e.g. the Gamma-function)
+∫
+R
+e−x2/2
+√
+2π
+dx = 1
+Since the density is an even function,
+E(X ) =
+∫
+R
+x f (x) dx = 0
+
+--- PAGE 13 ---
+Probability density function Continuous distributions Joint distributions
+Properties of expectation
+Expectation of transformed r.v.: For a function g : R→ R,
+E(g(X )) :=
+∫
+R
+g(x) fX (x) dx
+Linearity: E(aX + b) = aE(X ) + b:
+E(aX +b) =
+∫
+R
+(ax+b)fX (x) dx =
+∫
+R
+ax fX (x)+
+∫
+R
+bfX (x) = aE(X )+b
+In general, E((g(X ))⁄= g(E(X ));
+for convex g, Jensen’s inequality gives the “≥” sign:
+E(|X|)≥| E(X )|
+E(X 2)≥ E2(X ) etc
+Example (Triangle)
+Set Y := 1
+hX; then fY (y) = hfX (hy) = 2(1− y) for y∈ (0, 1) and zero
+otherwise;
+E(Y ) =
+∫ 1
+0
+2y(1− y) dy = 1− 2
+3 = 1
+3 = 1
+hE(X )
+
+--- PAGE 14 ---
+Probability density function Continuous distributions Joint distributions
+Moment generating functions
+Deﬁnition
+For a continuous (or discrete) r.v.X, its moment generating function
+(m.g.f.) MX (t) is
+MX (t) = E(etX ) =
+∫
+R
+etxfX (x) dx
+Example
+For X with the standard normal distribution,
+MX (t) = 1√
+2π
+∫
+R
+etxe−x2/2 dx = et2/2
+
+--- PAGE 15 ---
+Probability density function Continuous distributions Joint distributions
+Moment generating functions
+Why m.g.f.?
+M′
+X (t) = E(X etX ) so that M′
+X (0) = E(X );
+M′′
+X (t) = E(X 2 etX ) so that M′′
+X (0) = E(X 2)
+M (k )
+X (t) = E(X k etX ) so that M (k)
+X (0) = E(X k)
+Remark
+M.g.f. is a contiunous analogue of the p.g.f., with similar properties
+Properties of m.g.f:
+M (k)
+X (0) = E(X k)
+If X and Y are independent, then MX +Y (s) = MX (s)MY (s)
+Moment generating function uniquely determines the distribution.
+
+--- PAGE 16 ---
+Probability density function Continuous distributions Joint distributions
+Outline
+1 Probability density function
+Continuous random variables
+Properties of continuous r.v.
+Expectation and variance
+2 Continuous distributions and their properties
+Uniform distribution
+Normal, or Gaussian distribution
+Exponential distribution
+3 Joint distributions; transformation of random variables
+Joint distributions
+Independence
+Covariance and correlation
+Transformations
+Conditional distributions
+
+--- PAGE 17 ---
+Probability density function Continuous distributions Joint distributions
+Uniform distribution
+Deﬁnition (Uniform distribution)
+A continuous random variable X has a uniform distribution U (a, b) in
+an interval (a, b) (written X∼ U (a, b)) if its density is
+fX (t) = 1
+b− aχ(a,b)(t) =
+{
+1
+b−a, t∈ (a, b)
+0 otherwise .
+X∼ U (a, b) takes values in (a, b) only;
+P(X∈ ∆) only depends on the size of ∆;
+the expectation EX is
+EX = 1
+b− a
+∫ b
+a
+t dt = 1
+2(b− a)t2
+⏐⏐⏐
+b
+t=a
+= b2− a2
+2(b− a) = a + b
+2
+and is the middle point of the interval (a, b)
+
+--- PAGE 18 ---
+Probability density function Continuous distributions Joint distributions
+the second moment is
+E(X 2) = 1
+b− a
+∫ b
+a
+t2 dt = 1
+3(b− a)t3
+⏐⏐⏐
+b
+t=a
+= b3− a3
+3(b− a) = a2 + ab + b2
+3 ,
+the variance is
+VarX = E(X 2)− E2(X ) = a2 + ab + b2
+3 − (a + b)2
+4
+= a2 + ab + b2
+3 − a2 + 2ab + b2
+4
+= (b− a)2
+12
+It is natural that the variance is proportional to (b− a)2!
+
+--- PAGE 19 ---
+Probability density function Continuous distributions Joint distributions
+Example
+To calculate the above values in another way, write
+X = a + b
+2 + b− a
+2 U;
+then U has a uniform distribution over (−1, 1).
+By symmetry, the expectation of U is zero (EU = 0), whence
+VarU = E(U2) = 1
+2
+∫ 1
+−1
+t2 dt = 1
+3.
+By linearity of expectation, we ﬁnd that
+E X = a + b
+2 + b− a
+2 E U = a + b
+2 ;
+since Var(cU) = c2Var(U) and variance of a constant is zero,
+VarX = (b− a)2
+4 VarU = (b− a)2
+12 .
+
+--- PAGE 20 ---
+Probability density function Continuous distributions Joint distributions
+Outline
+1 Probability density function
+Continuous random variables
+Properties of continuous r.v.
+Expectation and variance
+2 Continuous distributions and their properties
+Uniform distribution
+Normal, or Gaussian distribution
+Exponential distribution
+3 Joint distributions; transformation of random variables
+Joint distributions
+Independence
+Covariance and correlation
+Transformations
+Conditional distributions
+
+--- PAGE 21 ---
+Probability density function Continuous distributions Joint distributions
+Normal, or Gaussian distribution
+Deﬁnition (Normal, or Gaussian distribution)
+A standard normal, or Gaussian, distribution N (0, 1) is given by the
+density function
+φ(t) := 1√
+2π
+e−t2/2
+Its c.d.f. is usually denoted Φ:
+Φ(t) :=
+∫ t
+−∞
+φ(s) ds = 1√
+2π
+∫ t
+−∞
+e−s2/2 ds
+If X has distribution N (0, 1) (written X∼ N (0, 1)), then its expectation
+is zero and the variance is 1:
+E X = 1√
+2π
+∫
+R
+te−t2/2 dt = 0,
+VarX = EX 2 = 1√
+2π
+∫
+R
+t2e−t2/2 dt = 1.
+
+--- PAGE 22 ---
+Probability density function Continuous distributions Joint distributions
+To prove that E(X 2) = 1:
+use parity to get
+1√
+2π
+∫
+R
+t2e−t2/2 dt =
+√
+2
+π
+∫ ∞
+0
+t2e−t2/2 dt
+make substitution u = t2/2, or t =
+√
+2u
+conclude that dt = du/
+√
+2u and
+√
+2
+π
+∫ ∞
+0
+t2e−t2/2 dt = 2√π
+∫ ∞
+0
+√
+ue−u du = 2√π·Γ( 3
+2) = 2√π·
+√π
+2 = 1
+in view of the relations Γ(s + 1) = sΓ(s) and Γ( 1
+2) =√π
+here Γ(·) is the Euler Gamma-function
+Γ(s) :=
+∫ ∞
+0
+ts−1e−t dt;
+observe that Γ(n + 1) = n!
+
+--- PAGE 23 ---
+Probability density function Continuous distributions Joint distributions
+Alternatively, use the m.g.f. MX:
+MX (t) := E(etX ) =
+∫
+R
+etxφ(x) dx = et2/2
+thus
+m1(X ) = E(X ) = M′
+X (0) =
+(
+tet2/2
+)⏐⏐⏐
+t=0
+= 0
+m2(X ) = E(X 2) = M′′
+X (0) =
+(
+[t2 + 1]et2/2
+)⏐⏐⏐
+t=0
+= 1
+m3(X ) = E(X 3) = M′′′
+X (0) =
+(
+[t3 + 3t]et2/2
+)⏐⏐⏐
+t=0
+= 0
+m4(X ) = E(X 4) = M (iv )
+X (0) =
+(
+[t4 + 6t2 + 3]et2/2
+)⏐⏐⏐
+t=0
+= 3
+and so on
+
+--- PAGE 24 ---
+Probability density function Continuous distributions Joint distributions
+Deﬁnition
+If Z∼ N (0, 1), then the random variableµ +σZ is said to have a
+normal (or Gaussian) distribution N (µ,σ 2).
+If Y =µ +σZ∼ N (µ,σ 2), then E Y =µ and VarY =σ2
+this explains the rˆole of the parametersµ andσ2
+the density of Y :
+FY (t) = P(Y≤ t) = P(Z≤ (t−µ)/σ) = FZ
+( t−µ
+σ
+)
+,
+so that
+FY (t) = Φ
+(
+t−µ
+σ
+)
+and
+fY (t) = F′
+Y (t) = 1
+σφ
+( t−µ
+σ
+)
+,
+i.e.,
+fY (t) = 1√
+2πσ
+exp
+{
+−(t−µ)2
+2σ2
+}
+.
+
+--- PAGE 25 ---
+Probability density function Continuous distributions Joint distributions
+Normal distribution
+
+
+--- PAGE 26 ---
+Probability density function Continuous distributions Joint distributions
+Outline
+1 Probability density function
+Continuous random variables
+Properties of continuous r.v.
+Expectation and variance
+2 Continuous distributions and their properties
+Uniform distribution
+Normal, or Gaussian distribution
+Exponential distribution
+3 Joint distributions; transformation of random variables
+Joint distributions
+Independence
+Covariance and correlation
+Transformations
+Conditional distributions
+
+--- PAGE 27 ---
+Probability density function Continuous distributions Joint distributions
+Deﬁnition (Exponential distribution)
+A nonnegative random variable X has exponential distribution with
+parameterλ> 0, written X∼E (λ), if the density of its distribution is
+fX (x) =
+{
+λe−λx, x≥ 0
+0, x < 0
+Example (Expectation of exponential distribution)
+For X∼E (λ), we make change of variablesλx = y and integrate by
+parts to get
+E X =
+∫ ∞
+0
+xλe−λx dx = 1
+λ
+∫ ∞
+0
+ye−y dy =−1
+λ
+∫ ∞
+0
+y(e−y)′ dy
+= ye−y
+⏐⏐⏐
+∞
+y=0
++1
+λ
+∫ ∞
+0
+e−y dy = 1
+λ;
+alternatively,
+= 1
+λ
+∫ ∞
+0
+y e−y dy = 1
+λΓ(2) = 1!
+λ = 1
+λ.
+
+--- PAGE 28 ---
+Probability density function Continuous distributions Joint distributions
+Example (Exponential distribution (cont.))
+Recalling the deﬁnition of the Gamma function, Γ(s) =
+∫∞
+0 ts−1e−t dx,
+and the relation Γ(k) = (k− 1)! for natural k, we also ﬁnd that
+E X k =
+∫ ∞
+0
+xkλe−λx dx = 1
+λk
+∫ ∞
+0
+yk e−y dy
+= Γ(k + 1)
+λk = k!
+λk ;
+in particular,
+VarX = E(X 2)− (E X )2 = 2
+λ2− 1
+λ2 = 1
+λ2.
+Alternatively, ﬁnd the m.g.f. MX:
+MX (t) =
+∫ ∞
+0
+etxfX (x) dx =
+∫ ∞
+0
+λe−x(λ−t) dt = λ
+λ− t
+Lack of memory property:
+P(X > s + t| X > s) = P(X > t)
+
+--- PAGE 29 ---
+Probability density function Continuous distributions Joint distributions
+Outline
+1 Probability density function
+Continuous random variables
+Properties of continuous r.v.
+Expectation and variance
+2 Continuous distributions and their properties
+Uniform distribution
+Normal, or Gaussian distribution
+Exponential distribution
+3 Joint distributions; transformation of random variables
+Joint distributions
+Independence
+Covariance and correlation
+Transformations
+Conditional distributions
+
+--- PAGE 30 ---
+Probability density function Continuous distributions Joint distributions
+Joint distributions
+Deﬁnition (Joint c.d.f.)
+Assume X and Y are r.v. deﬁned on a probability space (Ω, F, P).
+Their joint cumulative distribution function FX,Y is
+FX,Y (x, y) := P(X≤ x, Y≤ y)
+The marginal c.d.f. of X and Y are
+FX (x) = lim
+y→∞
+FX,Y (x, y)
+FY (y) = lim
+x→∞
+FX,Y (x, y)
+Example (Uniform distribution on the unit square)
+FX,Y =
+
+
+
+1 x > 1, y > 1
+x, x∈ (0, 1), y > 1
+y, x > 1, y∈ (0, 1)
+xy, x, y∈ (0, 1)
+0, otherwise
+
+--- PAGE 31 ---
+Probability density function Continuous distributions Joint distributions
+Joint probability density function
+Deﬁnition
+We say that r.v. X and Y have continuous joint distribution if
+FX,Y (x, y) =
+∫ x
+−∞
+∫ y
+−∞
+fX,Y (u, v) du dv
+for a nonnegative joint density function fX,Y . In that case,
+fX (x) =
+∫
+R
+fX,Y (x, y) dy
+fY (y) =
+∫
+R
+fX,Y (x, y) dx
+give marginal densities of X and Y
+Example
+The uniform distribution on the unit square S has a joint p.d.f.
+fX,Y (x, y) =
+{
+1 on S
+0 otherwise
+
+--- PAGE 32 ---
+Probability density function Continuous distributions Joint distributions
+Outline
+1 Probability density function
+Continuous random variables
+Properties of continuous r.v.
+Expectation and variance
+2 Continuous distributions and their properties
+Uniform distribution
+Normal, or Gaussian distribution
+Exponential distribution
+3 Joint distributions; transformation of random variables
+Joint distributions
+Independence
+Covariance and correlation
+Transformations
+Conditional distributions
+
+--- PAGE 33 ---
+Probability density function Continuous distributions Joint distributions
+Independence
+Deﬁnition
+R.v.’sX and Y are called independent if for all x and y the events
+{X≤ x} and{Y≤ y} are independent.
+Thus for independent X and Y
+P(X≤ x, Y≤ y) = P(X≤ x)· P(Y≤ y);
+or, in terms of cumulative distribution functions (c.d.f.)
+FX,Y (x, y) = FX (x)FY (y)
+or, in terms of probability density functions (p.d.f.),
+fX,Y (x, y) = fX (x)· fY (y).
+Remark
+The notion of independence is extended in a natural way to any number
+of random variables.
+
+--- PAGE 34 ---
+Probability density function Continuous distributions Joint distributions
+Some characteristics of joint distributions
+For any r.v.’sX and Y , E (X + Y ) = E X + E Y
+Variance of a r.v. X:
+VarX := E
+(
+(X− EX )2)
+= E(X 2)− (EX )2
+Additivity of variances
+Var(X + Y ) = VarX + VarY (1)
+cannot hold for all r.v.’s (takeY =−X for a nonconstant X), but it
+holds for independent r.v.’s.
+X and Y independent =⇒
+E(XY ) = E X· E Y
+and thus
+E
+(
+(X + Y )2)
+= E(X 2 + 2XY + Y 2) = E(X 2) + 2EX· EY + E(Y 2),
+therefore, for independent X and Y
+Var(X + Y ) = E
+(
+(X + Y )2)
+−
+(
+E(X + Y )
+)2
+= E(X 2)− (EX )2 + E(Y 2)− (EY )2 = VarX + VarY.
+
+--- PAGE 35 ---
+Probability density function Continuous distributions Joint distributions
+Independent r.v.’s
+X and Y independent =⇒ fX,Y (x, y) = fX (x)fY (y) and
+E(XY ) =
+∫
+R
+∫
+R
+xy fX,Y (x, y) dx dy =
+∫
+R
+∫
+R
+xy fX (x)fY (y) dx dy
+=
+∫
+R
+xfX (x) dx·
+∫
+R
+yfY (y) dy = E X· E Y
+as claimed. More generally,
+E
+(
+g(X )h(Y )
+)
+= E
+(
+g(X )
+)
+E
+(
+h(Y )
+)
+for any continuous functions g and h.
+Remark
+The equality Var(X + Y ) = VarX + VarY does not imply that X
+and Y are independent
+Also, the above equality extends to any number of pairwise
+independent summands X1, X2,..., Xn, i.e.,
+Var(X1 + X2 +··· + Xn) = VarX1 + VarX2 +··· + VarXn.
+
+--- PAGE 36 ---
+Probability density function Continuous distributions Joint distributions
+Outline
+1 Probability density function
+Continuous random variables
+Properties of continuous r.v.
+Expectation and variance
+2 Continuous distributions and their properties
+Uniform distribution
+Normal, or Gaussian distribution
+Exponential distribution
+3 Joint distributions; transformation of random variables
+Joint distributions
+Independence
+Covariance and correlation
+Transformations
+Conditional distributions
+
+--- PAGE 37 ---
+Probability density function Continuous distributions Joint distributions
+Covariance and correlation
+Deﬁnition (Covariance)
+For two random variables X and Y , their covariance Cov(X, Y ) is
+Cov(X, Y ) := E
+(
+(X− EX )· (Y− EY )
+)
+= E(XY )− EX· EY.
+If Cov(X, Y ) = 0, the r.v. X and Y are called uncorrelated.
+Independent X and Y are uncorrelated since E(XY ) = E X· E Y
+The converse is not true: e.g. X = Z and Y = Z 2 for standard
+Gaussian Z are uncorrelated but dependent
+For r.v.’sX and Y,
+Var(X + Y ) = VarX + 2Cov(X, Y ) + VarY
+In particular, for independent X and Y
+Var(X + Y ) = VarX + VarY
+Cov(X, Y )> 0 means that larger values of X correspond to larger
+values of Y
+
+--- PAGE 38 ---
+Probability density function Continuous distributions Joint distributions
+Covariance and correlation
+Deﬁnition (Correlation)
+For two random variables X and Y , their correlation Cor(X, Y ) is
+Cor(X, Y ) := Cov(X, Y )√
+Var(X )Var(Y )
+For any two r.v.’sX and Y ,
+|Cor(X, Y )|≤ 1
+(follows from Cauchy–Bunyakowski–Schwarz inequality)
+For independent X and Y, Cor(X, Y ) = 0
+Cor(X, Y ) = 0 =⇒ X and Y are uncorrelated
+(but need not be independent)
+If Cor(X, Y ) = 1, then Y = aX + b with a> 0
+If Cor(X, Y ) =−1, then Y = aX + b with a< 0
+
+--- PAGE 39 ---
+Probability density function Continuous distributions Joint distributions
+Outline
+1 Probability density function
+Continuous random variables
+Properties of continuous r.v.
+Expectation and variance
+2 Continuous distributions and their properties
+Uniform distribution
+Normal, or Gaussian distribution
+Exponential distribution
+3 Joint distributions; transformation of random variables
+Joint distributions
+Independence
+Covariance and correlation
+Transformations
+Conditional distributions
+
+--- PAGE 40 ---
+Probability density function Continuous distributions Joint distributions
+Distribution of transformed variables
+Question:
+If Y = g(X ) for some function g, what is the distribution of Y?
+Y = aX + b for a> 0 =⇒
+FY (y) = P(Y≤ y) = P(aX +b≤ y) = P(X≤ (y−b)/a) = FX ((y−b)/a)
+and the p.d.f. of Y is
+fY (y) = F′
+Y (y) = 1
+aF′
+X ((y− b)/a) = 1
+afX ((y− b)/a)
+More generally, if Y = g(X ) for an increasing function g, then
+FY (y) = P(Y≤ y) = P(g(X )≤ y) = P(X≤ g−1(y)) = FX (g−1(y))
+and the p.d.f. of Y is
+fY (y) = F′
+Y (y) = (g−1)′(y)fX (g−1(y))
+Example
+If X∼ U (0, 1) and Y =− ln X, then Y∼ E (1)
+
+--- PAGE 41 ---
+Probability density function Continuous distributions Joint distributions
+Distribution of transformed variables
+Assume that
+X = (X1,..., Xn) is a continuous random vector;
+S⊂ Rn is open and P(X∈ S) = 1;
+g : S→ Rn is one-to-one, continuously differentiable and
+non-degenerate on S.
+Then the random vector Y := g(X) is continuously distributed with
+fY(y) = fX
+(
+g−1(y)
+)
+·| Jg−1(y)| = fX
+(
+g−1(y)
+)
+/|Jg
+(
+g−1(y)
+)
+|.
+(Jh is the Jacobian of mapping h, i.e., det. of the matrix
+(
+∂hj/∂yk
+)n
+j,k=1).
+Proof is based on the change of variables formula x = g−1(y):
+FY(t) = P{g(X)≤ t} =
+∫
+g(x)≤t
+fX(x) dx
+=
+∫
+y≤t
+fX
+(
+g−1(y)
+)
+|Jg−1(y)| dy =
+∫
+y≤t
+fY(y) dy
+
+--- PAGE 42 ---
+Probability density function Continuous distributions Joint distributions
+Examples
+Scalar case: Y = g(X )
+fY (y) = fX
+(
+g−1(y)
+)
+·| (g−1)′(y)| = fX
+(
+g−1(y)
+)
+/|g′(
+g−1(y)
+)
+|
+If X∼ E (1) and Y = e−X, then
+fY (y) = 1
+y fX (− log y) = 1
+y elog y = 1, y = e−x∈ (0, 1)
+Afﬁne transformation g(x) = Ax + b
+Jg = det A and Jg−1 = det(A−1) = 1/ det A, so that
+fY(y) =| det A|−1fX
+(
+A−1(y− b)
+)
+For example, Y1 = X1 + X2 and Y2 = X1− X2 is the mapping
+(Y1
+Y2
+)
+=
+(1 1
+1 −1
+)( X1
+X2
+)
+, A−1 = 1
+2
+(1 1
+1 −1
+)
+thus
+fY(y) = 1
+2fX
+(
+y1+y2
+2 , y1−y2
+2
+)
+
+--- PAGE 43 ---
+Probability density function Continuous distributions Joint distributions
+Distribution of X1 + X2 and convolution
+Distribution of X1 + X2
+Consider Y1 = X1 + X2 and Y2 = X2; then g−1(y1, y2) = (y1− y2, y2) and
+fY(y) = fX(y1− y2, y2)
+and the marginal p.d.f. of Y1 (i.e., p.d.f. of X1 + X2) is
+fX1+X2(y1) = fY1(y1) =
+∫
+R
+fX(y1− t, t) dt =
+∫
+R
+fX(t, y1− t) dt
+If X1 and X2 are independent, then we get the convolution of fX1 and fX2:
+fX1+X2(y) =
+∫
+R
+fX1(y− t)fX2(t) dt =
+∫
+R
+fX1(t)fX2(y− t) dt
+
+--- PAGE 44 ---
+Probability density function Continuous distributions Joint distributions
+Bertrand paradox:
+Problem
+A chord on a given circle of radius 1 is chosen at random. What is the
+probability that its length is greater than the side length of the
+equilateral triangle inscribed in the circle?
+Solution
+The answer is 1
+4 because the chord centre must lie in the concentric
+circle of radius 1
+2
+Solution
+The answer is 1
+3 because if one point is ﬁxed, the other should lie in the
+middle third of the circumference
+Solution
+The answer is 1
+2 because if the chord direction is ﬁxed, its center must
+lie on the middle half of the perpendicular diameter
+
+--- PAGE 45 ---
+Probability density function Continuous distributions Joint distributions
+Bertrand paradox
+Choose points A and B independently and uniformly on the unit
+circumference;
+A and B can be described by the anglesα,β ∼ U [0, 2π);
+chord AB has length at least
+√
+3 iff 2π/3≤|α−β|≤ 4π/3
+the probability of this is 1/3
+Alternatively: choose the middle point C of AB
+C has coordinates X = 1
+2(cosα + cosβ) and Y = 1
+2(sinα + sinβ)
+C is not uniformly distributed in the unit disc!
+Alternatively: ﬁnd the directionγ := 1
+2(α +β)∈ [0, 2π) and the
+distance r to C from the centre
+r is equal to cos 1
+2(α−β) and is not uniformly distributed on (0, 1)
+fR(r) = 2
+π arccos′(r) = 2/π sin(arccos r) = 2/π
+√
+1− r 2; then
+P(R≤ 1
+2) =
+∫ 1/2
+0
+2dr
+π
+√
+1−r 2
+= 2
+π arcsin r
+⏐⏐⏐
+1/2
+r =0
+= 2
+π
+π
+6 = 1
+3
+
+--- PAGE 46 ---
+Probability density function Continuous distributions Joint distributions
+Outline
+1 Probability density function
+Continuous random variables
+Properties of continuous r.v.
+Expectation and variance
+2 Continuous distributions and their properties
+Uniform distribution
+Normal, or Gaussian distribution
+Exponential distribution
+3 Joint distributions; transformation of random variables
+Joint distributions
+Independence
+Covariance and correlation
+Transformations
+Conditional distributions
+
+--- PAGE 47 ---
+Probability density function Continuous distributions Joint distributions
+Conditional distribution
+Let X and Y have joint pdf fX,Y ;
+for small intervals ∆x and ∆y around x and y, we have
+P(X∈ ∆x, Y∈ ∆y)≈ fX,Y (x, y)|∆x||∆y|
+thus
+P(X∈ ∆x| Y∈ ∆y)≈ fX,Y (x, y)|∆x|
+fY (y)
+in the limit as ∆y→{ y}, we ﬁnd that
+P(X∈ ∆x| Y = y)≈ fX,Y (x, y)
+fY (y) |∆x|
+Deﬁnition
+Given a joint p.d.f. fX,Y , we say that the
+conditional distribution of X given that Y = y
+is continuous with the p.d.f.
+fX|Y (x| y) := fX,Y (x, y)
+fY (y)
+
+--- PAGE 48 ---
+Probability density function Continuous distributions Joint distributions
+Conditional distribution
+Let X1 and X2 be independent with distribution E (λ)
+TakeX = X1 and Y = X1 + X2;
+then fX,Y (x, y) =λ2e−λy on the set 0< x < y;
+fY (y) =
+∫ y
+0 fX,Y (x, y) dx =λ2ye−λy;
+i.e., Y has the Gamma distribution Γ(2,λ );
+now fX|Y (x| y) = y−1 for x∈ (0, y), so that X| Y = y is a
+uniform distribution U (0, y)
+clearly, X∼ E (λ), so that fY|X (y| x) =λe−λ(y−x)
+the distribution of Y| X = x is shifted exponential
+i.e., Y− x| X = x∼ E (λ)
+In fact, Z := Y− X and X are independent, so that
+(Y− x| X = x)∼ (Z| X = x)∼ Z
